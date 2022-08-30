@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+	<head> 
+		<meta charset="UTF-8">
+		<title> please for the love of god </title>
+	</head>
+
+	<body>
+			
+		<h1> hello there </h1>
+
+		<script src="./headtrackr.js"></script>
+
+		<canvas id="inputCanvas" width="320" height="240" style="display:none"</canvas>
+		<video id="inputVideo" autoplay loop></video>
+		<script type="text/javascript">
+		
+			var videoInput = document.getElementById('inputVideo');
+			var canvasInput = document.getElementById('inputCanvas');
+			
+			var htracker = new headtrackr.Tracker();
+			htracker.init(videoInput, canvasInput);
+			htracker.start();
+	</script>
+
+		<h2> is it working??? </h2>
+
+	</body>
+
+</html>

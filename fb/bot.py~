@@ -1,0 +1,6 @@
+from fbchat import Client
+from fbchat.models import *
+
+client = Client('<6267475873>', '<H8keyx87>')
+
+

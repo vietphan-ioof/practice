@@ -1,0 +1,11 @@
+# Ignore executables
+/bin/*
+/o/*
+/win/o/*
+/win/bin/*
+
+# Ignore packaged release
+/release/*
+
+# Just in case
+screenshot.bmp
