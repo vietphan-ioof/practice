@@ -18,13 +18,17 @@
 
 .highlighter:hover{
 	color: #fff;
-	background-color: gold;
+	background-color: black;
 }
 
 .hero_desc {
     font-size: 2rem;
 }
 
+.col-lg-5 {
+	position: relative;
+	right: 50px;
+}
 
 mark {
 	background-color: blue;
