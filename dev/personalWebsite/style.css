@@ -10,14 +10,21 @@
     position:relative;
 }
 
-/* text css above hero image*/
+/* text css above image*/
 .hero_title {
     font-size: 4.5rem;
 	position 50px;
 }
+
+.highlighter:hover{
+	color: #fff;
+	background-color: black;
+}
+
 .hero_desc {
     font-size: 2rem;
 }
+
 
 mark {
 	background-color: blue;
