@@ -302,7 +302,7 @@
 							</label>
 						</div>
                         <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="details" name="details" placeholder="Projet Details"></textarea>
+                            <textarea class="form-control" rows="5" id="details" name="details" placeholder="Project_ Details"></textarea>
                         </div>
 
 						<div> 
