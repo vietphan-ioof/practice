@@ -1,5 +1,5 @@
 
-<!-- TODO: fix up text orientaiton and add gifs to the portfolio section --!>
+<!-- TODO: fix up text orientaiton and add gifs to the portfolio section -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,6 +53,7 @@
 				<h2 class="hero_title"><mark>Aditya</mark></h2>
 				<p class="hero_desc"><mark>18 year old developer.</mark></p>
 				<a href="https://github.com/SriLikesToSing/"><mark>Github</mark></a>
+				<a href="https://srilikestosing.github.io/"> <mark>My Blog</mark> </a>
             </div>
             </div>
         </div>
@@ -68,7 +69,6 @@
                 </div>
 
                 <div class="col-lg-5">
-
                     <p> I program every single day tinkering and creating projects that create user value and for its own sake. 
                         I always learned the best by hacking away and creating projects that help me learn things in a deeper way, allowing me 
 						to produce products and solutions that are as efficient and reliable as possible.
@@ -90,7 +90,7 @@
                             <i class="fas servicesIcon fa-clock"></i>
                             <h4 class="card-title mt-3">Software Engineering</h4>
                             <p class="card-text mt-3">
-							<li>Python/Java/C++ Development </li>
+							<li>Python/Java/C++/C# Development </li>
 							<li>Automation Systems</li>
 							<li>API's</li>
 							<li>Business Logic</li>
@@ -116,9 +116,11 @@
                         <div class="card-body">
                             <i class='far servicesIcon fa-check-circle'></i>
                             <h4 class="card-title mt-3">Electronics/Embedded Systems Programming</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
+							<li>Embedded Systems Like Arduino/Esp8266/etc. </li>
+							<li>Robotics</li>
+							<li>Logic/Circuit Board Design</li>
+							<li>Electronics Modding</li>
+
                         </div>
                     </div>  
                 </div>
@@ -130,8 +132,9 @@
                         <div class="card-body">
                             <i class='fas servicesIcon fa-search'></i>
                             <h4 class="card-title mt-3">Technical Blogging</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3">
+									I use a blog to showcase and process the journey of engineering and programming my projects and various other technical insights 
+									
                             </p>
                         </div>
                     </div>  
@@ -189,7 +192,7 @@
                             <h4 class="card-title">Adobe Premire Voice Activated Video Editing</h4>
                             <p class="card-text">Premiere pro voice-activated editing support using Python, Google Cloud, and Speech to Text to help people with disablities.</p>
                             <div class="text-center">
-                                <a href="" class="btn btn-success">Link</a>
+                                <a href="https://github.com/SriLikesToSing/Adobe-Premiere-Voice-Activated-Video-Editing-" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
