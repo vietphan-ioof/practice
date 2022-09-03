@@ -269,13 +269,17 @@
                     <!-- form fields -->
 					<!-- <button type="button" class="btn btn-success mt-3">Contact Me</button> -->
 
-					<form action="mailto:srilikestoscience@gmail.com" method="post" enctype="text/plain" >
+					<h5 class="card-title"> Email: </h4>
+					<p class="card-text"> srilikestoscience@gmail.com </h4>
 					<br>
+					<h5 class="card-title"> Phone Number: </h4>
+					<p class="card-text"> 6267475873 </h4>
 					<br>
+					<h5 class="card-title"> Twitter: </h4>
+					<p class="card-text"> @That_guy_sri </h4>
 					<br>
-					<input type="submit" class="form-control form-controll-lg" name="submit" value="Click To Email Me Here">
-					<input type="subject" class="form-control form-controll-lg" name="submit" value="Click To Email Me Here">
-				    </form>
+
+
                 </div>
 
             </div>
