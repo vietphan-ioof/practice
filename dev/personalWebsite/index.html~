@@ -274,7 +274,7 @@
 					<p class="card-text"> srilikestoscience@gmail.com </h4>
 					<br>
 					<h5 class="card-title"> Phone Number: </h4>
-					<p class="card-text"> 6267475873 </h4>
+					<p class="card-text"> 626-747-5873 </h4>
 					<br>
 					<h5 class="card-title"> Twitter: </h4>
 					<p class="card-text"> @That_guy_sri </h4>
@@ -293,7 +293,7 @@
             <div class="social-icons mt-4">
                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/That_guy_sri" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/That_guy_sri" target="https://twitter.com/That_guy_sri"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
             </div>
