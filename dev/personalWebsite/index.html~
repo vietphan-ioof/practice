@@ -146,7 +146,7 @@
                             <i class='fas servicesIcon fa-shield-alt'></i>
                             <h4 class="card-title mt-3">Management</h4>
                             <p class="card-text mt-3">
-                               Had experience being a Lead Programmer and Co-Captain for the FIRST Robotics Competition leading and managing a group of junior programmers to create custom robot software.  
+                               Had experience being a Lead Programmer and Co-Captain for the FIRST Robotics Competition leading and managing a group of junior programmers to create custom robot software and algorithms.  
                             </p>
                         </div>
                     </div>  
@@ -165,7 +165,7 @@
                         <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Fast Lane</h4>
-                            <p class="card-text">FastLane is a self hosted serverless password manager software. Use only one password to get access to all of your passwords without storing all of them using a database. Uses a sha512 hashing algorithm to create a new password using your master password. This makes using a database to store your other passwords uncessesary and increases ease of use and security.</p>
+                            <p class="card-text">FastLane is a self hosted serverless password manager software. Use only one password to get access to all of your passwords without storing all of them using a database. Uses a sha512 hashing algorithm and QuantomRandom to create and access passwords for any site using only your original master password that the program can also generate. This makes using a database to store your other passwords uncessesary and increases ease of use and security.</p>
                             <div class="text-center">
                                 <a href="https://github.com/SriLikesToSing/fastLane" target="https://github.com/SriLikesToSing/fastLane" class="btn btn-success">Link</a>
                             </div>
