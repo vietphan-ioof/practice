@@ -133,7 +133,7 @@
                             <i class='fas servicesIcon fa-search'></i>
                             <h4 class="card-title mt-3">Technical Blogging</h4>
                             <p class="card-text mt-3">
-									I use a blog to showcase and process the journey of engineering and programming my projects and various other technical insights 
+									I use a blog to showcase and process the journey of engineering and programming my projects and various other technical insights. 
 									
                             </p>
                         </div>
@@ -144,21 +144,9 @@
                     <div class="card servicesText">
                         <div class="card-body">
                             <i class='fas servicesIcon fa-shield-alt'></i>
-                            <h4 class="card-title mt-3">DevOps</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fas servicesIcon fa-wrench'></i>
-                            <h4 class="card-title mt-3">QA</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <h4 class="card-title mt-3">Management</h4>
+                            <p class="card-text mt-3">
+                               Had experience being a Lead Programmer and Co-Captain for the FIRST Robotics Competition leading and managing a group of junior programmers to create custom robot software.  
                             </p>
                         </div>
                     </div>  
@@ -291,11 +279,10 @@
         <div class="container-fluid">
             <!-- social media icons -->
             <div class="social-icons mt-4">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/that_one_guy_aditya/" target="https://www.instagram.com/that_one_guy_aditya/"><i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/That_guy_sri" target="https://twitter.com/That_guy_sri"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.linkedin.com/in/sri-aditya-devaguptapu-00862524b/" target="https://www.linkedin.com/in/sri-aditya-devaguptapu-00862524b/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/srilikesthatcake" target="https://www.twitch.tv/srilikesthatcake"><i class="fab fa-twitch"></i></a>
             </div>
         </div>
     </footer>
