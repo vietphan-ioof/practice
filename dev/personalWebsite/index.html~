@@ -175,7 +175,7 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/pr.jpeg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Adobe Premiere Voice Activated Video Editing</h4>
                             <p class="card-text">Premiere pro voice-activated editing support using Python, Google Cloud, and Speech to Text to help people with disablities.</p>
@@ -219,7 +219,7 @@
                         <img class="card-img-top" src="images/roomba2.gif" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Roomba Butler Service Mod</h4>
-                            <p class="card-text">A modified Roomba that was injected with custom C code using an arduino microcontroller to do what I want it to do. I added voice commands that allowed it to do specific actions like bring food or give massage. Useful for the elderly or people with disablities or just for showing dominance over a robot. </p>
+                            <p class="card-text">A modified Roomba that was injected with custom C code using an arduino microcontroller, bluetooth module and intricate circuitry to do what I want it to do. I added voice commands that allowed it to do specific actions like bring food or give massage. Useful for the elderly or people with disablities or just for showing dominance over a robot. </p>
                             <div class="text-center">
                                 <a href="https://github.com/SriLikesToSing/roombaButler" target="https://github.com/SriLikesToSing/roombaButler"  class="btn btn-success">Link</a>
                             </div>
