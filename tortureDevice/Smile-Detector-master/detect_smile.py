@@ -6,9 +6,11 @@ import imutils
 import argparse
 import cv2
 import os
+import time
 
 
 def main():
+    print("BRUH ITS WORKING LMAOOOOOOOOOOOOO")
     # construct the argument parse and parse the arguments
     ap = argparse.ArgumentParser()
     args = vars(ap.parse_args())
@@ -19,7 +21,7 @@ def main():
 
     # if a video path was not supplied, grab the refrences to the webcam
     print('[INFO] starting video capture...')
-    camera = cv2.VideoCapture(-1)
+    camera = cv2.VideoCapture(0)
 
 
     count = 0
@@ -65,12 +67,14 @@ def main():
             else:
                 cv2.putText(frameClone, label, (fX, fY - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
                 cv2.rectangle(frameClone, (fX, fY), (fX + fW, fY + fH), (0, 0, 255), 2)
-                if count == 10:
+                if count == 100:
                     #send command to fire the gun and end the program
                     os.chdir('C:\Program Files\mosquitto')
                     os.system('mosquitto_pub -h localhost -p 1883 -t test/topic -m \"fire!\"')
                     #play audio clip of firing
                     os.system("start C:/Users/madhu/Desktop/Megafile/programs/tortureDevice/Smile-Detector-master/audio.wav")
+                    count = 0
+                    time.sleep(20)
                     #break?
                 else:
                     count+=1

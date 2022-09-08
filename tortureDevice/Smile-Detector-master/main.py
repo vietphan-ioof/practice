@@ -14,9 +14,8 @@ def runGuitar():
     os.chdir('C:\Program Files\mosquitto')
     starttime = time.time()
     while True:
-        n = random.uniform(10, 20)
+        n = random.uniform(10, 30)
         os.system('mosquitto_pub -h localhost -p 1883 -t test/topic -m \"play!\"')
-        os.system('mosquitto_pub -h localhost -p 1883 -t test/topic -m \"fire!\"')
         print('it is working PLAY')
         time.sleep(n - ((time.time() - starttime) % n))
 
@@ -27,7 +26,7 @@ def runDooDooSmell():
     os.chdir('C:\Program Files\mosquitto')
     starttime = time.time()
     while True:
-        n = random.uniform(10, 20)
+        n = random.uniform(20, 30)
         print('it is working sharting!')
         os.system('mosquitto_pub -h localhost -p 1883 -t test/topic -m \"sharting!\"')
         time.sleep(n - ((time.time() - starttime) % n))
@@ -57,14 +56,14 @@ def main():
 
     #start the keylogger and visual detection software 
 
-#    p3 = Process(target=detect_smile.main)
+    p3 = Process(target=detect_smile.main)
     p1 = Process(target=runGuitar)
     p2 = Process(target=runDooDooSmell)
     p4 = Process(target=loggingLoop)
 
     p1.start()
     p2.start()
-#    p3.start()
+    p3.start()
     p4.start()
 
 if __name__ == '__main__':
