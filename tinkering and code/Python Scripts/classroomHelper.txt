@@ -1,0 +1,9 @@
+
+
+ - I really need to stop turning in assignments late even though i remind myself and I refuse to not be lazy
+
+
+ - features
+    - set how much time before the due date you want a reminder
+    - frequency of reminders after that reminder
+    - send a notification to the phone and the computer

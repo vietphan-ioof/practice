@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "B3Fb5EAMMGEIzkFb8DE7vOfQZyCOyA0mFqEEX+qqNKmUry7s+sAta4JDEANOw8H3HPpdAj19yRxIDc9+Jk2DvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\madhu\\OneDrive\\Desktop\\Megafile\\Python programs\\Python.pyfiles\\midiToTxt\\main\\main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\madhu\\.nuget\\packages\\melanchall.drywetmidi\\5.1.1\\melanchall.drywetmidi.5.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

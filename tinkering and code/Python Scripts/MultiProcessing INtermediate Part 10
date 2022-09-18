@@ -1,0 +1,12 @@
+import multiprocessing
+
+
+def spawn(num):
+    print('Spawned! {} {}'.format(num, num2))
+
+
+if __name__ == '__main__':
+    for i in range(55):
+        p = multiprocessing.process(target=spawn, args=(i, i + 1))
+        p.start()
+        p.join()

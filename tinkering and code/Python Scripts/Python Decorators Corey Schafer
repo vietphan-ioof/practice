@@ -1,0 +1,38 @@
+import os
+import random
+
+
+with open('C:\\Users\\madhu\\OneDrive\\Desktop\\Megafile\\Python programs\\wordslist.txt') as e:
+    a = [x.strip('\n') for x in e]
+
+    a = list(list(filter(None, a)))
+
+    b = random.choice(a)
+
+
+letters = []
+for x in b:
+    letters.append(x)
+
+print(letters)
+
+
+key_list = []
+for lett in letters:
+    key_list.append(lett)
+
+if len(letters) > 4:
+    ok = letters
+    ok[1] = ''
+    ok[3] = ''
+    ok[4] = ''
+
+
+amt_guesses = 5
+
+
+def main_guess():
+    print(ok)
+
+
+print(key_list)

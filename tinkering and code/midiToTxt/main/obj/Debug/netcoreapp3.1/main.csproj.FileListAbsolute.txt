@@ -1,0 +1,15 @@
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\bin\Debug\netcoreapp3.1\main.exe
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\bin\Debug\netcoreapp3.1\main.deps.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\bin\Debug\netcoreapp3.1\main.runtimeconfig.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\bin\Debug\netcoreapp3.1\main.runtimeconfig.dev.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\bin\Debug\netcoreapp3.1\main.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\bin\Debug\netcoreapp3.1\main.pdb
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.csprojAssemblyReference.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.AssemblyInfoInputs.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.AssemblyInfo.cs
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.csproj.CoreCompileInputs.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.pdb
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.genruntimeconfig.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\bin\Debug\netcoreapp3.1\Melanchall.DryWetMidi.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\main\obj\Debug\netcoreapp3.1\main.csproj.CopyComplete

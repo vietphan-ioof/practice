@@ -1,0 +1,30 @@
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.exe
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.deps.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.runtimeconfig.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.runtimeconfig.dev.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.pdb
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.csprojAssemblyReference.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.AssemblyInfoInputs.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.AssemblyInfo.cs
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.csproj.CoreCompileInputs.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.pdb
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.genruntimeconfig.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Melanchall.DryWetMidi.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Python programs\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.csproj.CopyComplete
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.exe
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.deps.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.runtimeconfig.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.runtimeconfig.dev.json
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Vision.pdb
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\bin\Debug\netcoreapp3.1\Melanchall.DryWetMidi.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.csprojAssemblyReference.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.AssemblyInfoInputs.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.AssemblyInfo.cs
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.csproj.CoreCompileInputs.cache
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.csproj.CopyComplete
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.dll
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.pdb
+C:\Users\madhu\OneDrive\Desktop\Megafile\Pythonprograms\Python.pyfiles\midiToTxt\Vision\obj\Debug\netcoreapp3.1\Vision.genruntimeconfig.cache

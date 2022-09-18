@@ -1,0 +1,2 @@
+generates_in_degenerates = (((i, ii, iii) for i in range(5)) for i in range(5))
+print(generates_in_degenerates)

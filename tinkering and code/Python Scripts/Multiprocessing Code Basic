@@ -1,0 +1,9 @@
+import time
+from multiprocessing import process
+
+
+def calc_cube
+
+
+if __name__ == "__main__"
+    arr = [2, 3, 7, 9]

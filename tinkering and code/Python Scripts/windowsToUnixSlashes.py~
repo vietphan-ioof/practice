@@ -1,0 +1,32 @@
+
+
+print("type in path")
+bruh = input()
+
+
+for x in range(0, len(bruh)-1):
+    if bruh[x] == '\\':
+        bruh[x] = '/'
+        
+
+
+print(bruh)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y76P91BT/BLy22jCtZOZPEjPANiZKf1P10q2P6CVvQN4JvUp8GmyfoIrLFMv35RhNT3uJEkiqDvuX/r9lhrc+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\madhu\\OneDrive\\Desktop\\Megafile\\Pythonprograms\\Python.pyfiles\\midiToTxt\\Vision\\Vision.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\madhu\\.nuget\\packages\\melanchall.drywetmidi\\5.1.1\\melanchall.drywetmidi.5.1.1.nupkg.sha512",
+    "C:\\Users\\madhu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\madhu\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\madhu\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\madhu\\.nuget\\packages\\system.security.principal\\4.3.0\\system.security.principal.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

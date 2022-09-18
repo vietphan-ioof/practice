@@ -1,0 +1,39 @@
+A estoric language on the rubiks cube that transpiles to python
+
+
+Goal: To make the Rubiks Cube Turing Complete
+    Supplies:
+        A rubiks cube and an instruction pointer
+
+
+
+How will I do this?:
+    - You can use the colors of the cube
+        - Maybe this is better for storing the program inside the cube itself?
+
+        - each color represents an instruction
+           - back two rows can store numbers and characters?
+
+        - use a grid buffer?
+
+
+    - Each color
+
+
+    - You can use the turning notation
+        - Can write programs using this notation
+
+
+        - can a piece of paper be an instruction pointer?
+
+
+
+
+
+
+
+
+
+
+
+

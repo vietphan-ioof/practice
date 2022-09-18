@@ -1,0 +1,23 @@
+DEBUG:root:Add: 20 + 10 = 30
+DEBUG:root:Add: 20 + 10 = 10
+DEBUG:root:Add: 20 + 10 = 200
+DEBUG:root:Add: 20 + 10 = 2.0
+DEBUG:root:test
+DEBUG:root:Add: 20 + 10 = 30
+DEBUG:root:Add: 20 + 10 = 10
+DEBUG:root:Add: 20 + 10 = 200
+DEBUG:root:Add: 20 + 10 = 2.0
+DEBUG:root:test
+DEBUG:root:Add: 20 + 10 = 30
+DEBUG:root:Add: 20 + 10 = 10
+DEBUG:root:Add: 20 + 10 = 200
+DEBUG:root:Add: 20 + 10 = 2.0
+DEBUG:root:test
+DEBUG:root:Add: 20 + 10 = 30
+DEBUG:root:Add: 20 + 10 = 10
+DEBUG:root:Add: 20 + 10 = 200
+DEBUG:root:Add: 20 + 10 = 2.0
+DEBUG:root:Add: 20 + 10 = 30
+DEBUG:root:Sub: 20 - 10 = 10
+DEBUG:root:Mul: 20 * 10 = 200
+DEBUG:root:Div: 20 / 10 = 2.0

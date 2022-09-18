@@ -1,0 +1,11 @@
+# Shutil Module
+# shutil.copy(Source, destination))
+
+import shutil
+import os
+
+
+shutil.copy('C:\\Users\\madhu\\OneDrive\\Desktop\\Megafile\\Random', 'C:\\Users\\madhu\\OneDrive\\Desktop')
+
+
+# Copy Tree will copy an entire folder and every folder and file contained in it

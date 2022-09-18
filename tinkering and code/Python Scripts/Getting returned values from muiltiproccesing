@@ -1,0 +1,11 @@
+from multiprocessing import pool
+
+
+def job(num):
+
+
+if __name__ == '__main__'
+    p = Pool(processes=10)
+    data = p.map(job, range(20))
+    p.close()
+    print(data)

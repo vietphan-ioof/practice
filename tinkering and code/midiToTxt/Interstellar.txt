@@ -1,0 +1,3425 @@
+MThd | Format=1 | # of Tracks=4 | Division=96
+
+Track #0 ******************************************
+    Time       Event
+   1: 1:  0 |Time Sig	 |  4/4      | MIDI-clocks\click=24 | 32nds\quarter=8
+	    |End of track| 
+
+Track #1 ******************************************
+    Time       Event
+   1: 1:  0 |Tempo	 | BPM=94    | micros\quarter=631579
+	    |End of track| 
+
+Track #2 ******************************************
+    Time       Event
+   1: 1:  0 |Track Name  | len=13    |
+	    0x53 0x61 0x6D 0x70 0x6C 0x65 0x54 0x61 0x6E 0x6B 0x32 <SampleTank2>
+	    0x2E 0x78						   <.x>
+	    |End of track| 
+
+Track #3 ******************************************
+    Time       Event
+   1: 1:  0 |Track Name  | len=8     |
+	    0x4D 0x49 0x44 0x49 0x20 0x4F 0x75 0x74		   <MIDI Out>
+	    |Controller  | chan= 1   | contr=Pan H | value= 64
+	    |Controller  | chan= 1   | contr=Volume H | value=100
+	    |Pitch Wheel | chan= 1   | bend=0
+	    |Controller  | chan= 1   | contr=RPN H | value=  0
+	    |Controller  | chan= 1   | contr=RPN L | value=  0
+	    |Controller  | chan= 1   | contr=Data H | value= 12
+	    |Controller  | chan= 1   | contr=Pan H | value= 64
+	    |Controller  | chan= 1   | contr=Volume H | value=100
+	    |Pitch Wheel | chan= 1   | bend=0
+	    |Program	 | chan= 1   | pgm #=  2 Bright Piano
+	    |Controller  | chan= 1   | contr=RPN H | value=  0
+	    |Controller  | chan= 1   | contr=RPN L | value=  0
+	    |Controller  | chan= 1   | contr=Data H | value= 12
+	    |Controller  | chan= 1   | contr=Pan H | value= 64
+	    |Controller  | chan= 1   | contr=Volume H | value=100
+	    |Pitch Wheel | chan= 1   | bend=0
+	    |Program	 | chan= 1   | pgm #=  2 Bright Piano
+	    |Controller  | chan= 1   | contr=RPN H | value=  0
+	    |Controller  | chan= 1   | contr=RPN L | value=  0
+	    |Controller  | chan= 1   | contr=Data H | value= 12
+	    |Controller  | chan= 1   | contr=Pan H | value= 64
+	    |Controller  | chan= 1   | contr=Volume H | value=100
+	    |Pitch Wheel | chan= 1   | bend=0
+	    |Program	 | chan= 1   | pgm #=  2 Bright Piano
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=57
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=57
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=57
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=57
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=57
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=57
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=58
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=58
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+   2: 1:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=58
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=59
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=60
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=60
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=61
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=62
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=63
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+   3: 1:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59 
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=64
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=65
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=65
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=67
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+   4: 1:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=69
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=69
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=69
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=72
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=59
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=73
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+   5: 1:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=62
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=73
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=63
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=64
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=64
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=64
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=64
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=64
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=64
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+   6: 1:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=64
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=64
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=66
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=68
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=80
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=68
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=80
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 3	 | vol=80
+	 95 |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=69
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=82
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=72
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+   7: 1:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=72
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=82
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=74
+	 95 |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=74
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=82
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=74
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=74
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=82
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=74
+	 95 |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=74
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=82
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=74
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+   8: 1:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=75
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=82
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=76
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=76
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=74
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=76
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=74
+	 95 |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=76
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=76
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+   9: 1:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=76
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=76
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 3	 | vol=76
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 3	 | vol=81
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+  10: 1:  0 |On Note	 | chan= 1   | pitch=A 2	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4: 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+  11: 1:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=B 2	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+  12: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=83
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      3:  0 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+  13: 1:  0 |On Note	 | chan= 1   | pitch=C 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=83
+	 95 |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+  14: 1:  0 |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=D 3	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 3	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+  15: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=g 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=C 2	 | vol=70
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+  16: 1:  0 |On Note	 | chan= 1   | pitch=C 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=F 1	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=f 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+  17: 1:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=D 2	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+  18: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=97
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=77
+	 95 |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+  19: 1:  0 |On Note	 | chan= 1   | pitch=E 2	 | vol=75
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=97
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=83
+	 95 |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+  20: 1:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=93
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=85
+	 95 |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=D 2	 | vol=83
+	 95 |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=93
+	 95 |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+  21: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=C 2	 | vol=80
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+  22: 1:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=70
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=80
+	 95 |Off Note	 | chan= 1   | pitch=f 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=F 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=F 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=f 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+  23: 1:  0 |On Note	 | chan= 1   | pitch=D 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=70
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=80
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=G 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=80
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+  24: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 2	 | vol=97
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=97
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+  25: 1:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=70
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=93
+	 95 |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=A 2	 | vol=97
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=93
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+  26: 1:  0 |On Note	 | chan= 1   | pitch=D 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=70
+	 95 |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=G 2	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+  27: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=C 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=98
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=88
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=88
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=88
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=100
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+  28: 1:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=91
+	 95 |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=F 1	 | vol=86
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=95
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=F 0	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	 95 |Off Note	 | chan= 1   | pitch=f 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=f 0	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=64
+  29: 1:  0 |On Note	 | chan= 1   | pitch=D 1	 | vol=93
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=93
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=89
+	 95 |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=95
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=86
+	 95 |Off Note	 | chan= 1   | pitch=d 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=G 1	 | vol=93
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=93
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=93
+	    |On Note	 | chan= 1   | pitch=B 2	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=G 0	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=b 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+  30: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=84
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 3	 | vol=95
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 0	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 1	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=105
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=100
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+  31: 1:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=95
+	 95 |Off Note	 | chan= 1   | pitch=e 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=A 1	 | vol=100
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=100
+	    |On Note	 | chan= 1   | pitch=C 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=89
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=89
+	    |On Note	 | chan= 1   | pitch=A 0	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=c 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=98
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=102
+	 95 |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 0	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=64
+  32: 1:  0 |On Note	 | chan= 1   | pitch=D 1	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=95
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=100
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=95
+	 95 |Off Note	 | chan= 1   | pitch=d 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=G 1	 | vol=100
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=100
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=100
+	    |On Note	 | chan= 1   | pitch=D 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=91
+	    |On Note	 | chan= 1   | pitch=G 0	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=d 3	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+  33: 1:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=104
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 0	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 1	 | vol=81
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=71
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=86
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=86
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=86
+	    |On Note	 | chan= 1   | pitch=A 0	 | vol=86
+	    |On Note	 | chan= 1   | pitch=E 0	 | vol=86
+      4: 95 |Off Note	 | chan= 1   | pitch=e 1	 | vol=0
+  34: 1:  0 |On Note	 | chan= 1   | pitch=E 1	 | vol=81
+      2: 95 |Off Note	 | chan= 1   | pitch=e 1	 | vol=0
+      3:  0 |On Note	 | chan= 1   | pitch=E 1	 | vol=81
+      4: 95 |Off Note	 | chan= 1   | pitch=e 1	 | vol=0
+  35: 1:  0 |On Note	 | chan= 1   | pitch=E 1	 | vol=81
+      2: 95 |Off Note	 | chan= 1   | pitch=e 0	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 1	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 0	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 1	 | vol=0
+      3:  0 |On Note	 | chan= 1   | pitch=E 1	 | vol=78
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=78
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=88
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=88
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 23 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=A 3	 | vol=88
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=88
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 47 |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=C 4	 | vol=87
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 71 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=A 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 95 |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+      4:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=87
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=78
+	 23 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=A 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 47 |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=C 4	 | vol=87
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 71 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=A 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=87
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 95 |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+  36: 1:  0 |On Note	 | chan= 1   | pitch=C 4	 | vol=88
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=88
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=78
+	 23 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=A 3	 | vol=88
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=88
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 47 |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=C 4	 | vol=91
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 71 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=A 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	 95 |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+      2:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=91
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=73
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=80
+	 23 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=E 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=74
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=74
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=C 4	 | vol=94
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=74
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=74
+	 71 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=E 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=95
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=76
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=76
+	 95 |Off Note	 | chan= 1   | pitch=e 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+      3:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=96
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=82
+	    |On Note	 | chan= 1   | pitch=D 1	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=96
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=76
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=76
+	 23 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=E 3	 | vol=96
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=96
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=76
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=76
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=D 4	 | vol=96
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=96
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=76
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=76
+	 71 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=78
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=78
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+      4:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=94
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=78
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=78
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=86
+	 23 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=78
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=78
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=D 4	 | vol=94
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=80
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=80
+	 71 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=80
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=80
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+  37: 1:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=94
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=86
+	 23 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=E 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=94
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=82
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=D 4	 | vol=92
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=82
+	 71 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=E 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=83
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=83
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+      2:  0 |On Note	 | chan= 1   | pitch=D 4	 | vol=92
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=83
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=83
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=86
+	 23 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=E 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=84
+	 47 |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 48 |On Note	 | chan= 1   | pitch=D 4	 | vol=92
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=84
+	 71 |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+	 72 |On Note	 | chan= 1   | pitch=E 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=84
+	 95 |Off Note	 | chan= 1   | pitch=d 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=0
+      3:  0 |On Note	 | chan= 1   | pitch=F 4	 | vol=91
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 1	 | vol=86
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=91
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	 23 |Off Note	 | chan= 1   | pitch=f 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=C 4	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=92
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=84
+	 47 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=F 4	 | vol=97
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=97
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=97
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=84
+	 71 |Off Note	 | chan= 1   | pitch=f 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=C 4	 | vol=98
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=98
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=98
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	 95 |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=F 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=86
+	 23 |Off Note	 | chan= 1   | pitch=f 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=C 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	 47 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=F 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	 71 |Off Note	 | chan= 1   | pitch=f 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=C 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	 95 |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+  38: 1:  0 |On Note	 | chan= 1   | pitch=G 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=88
+	 23 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=C 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	 47 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=G 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=86
+	 71 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=C 4	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=100
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=84
+	 95 |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=G 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=84
+	    |On Note	 | chan= 1   | pitch=C 2	 | vol=92
+	 23 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=C 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=83
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=83
+	 47 |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=G 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=82
+	 71 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=C 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=F 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=F 2	 | vol=82
+	 95 |Off Note	 | chan= 1   | pitch=f 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=f 2	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=B 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=82
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=92
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=92
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=104
+	 23 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=B 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=102
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=102
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 71 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=B 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=92
+	 23 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=106
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=106
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=B 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 71 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+  39: 1:  0 |On Note	 | chan= 1   | pitch=B 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=92
+	 23 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=B 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 71 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=B 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=92
+	 23 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=B 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 71 |Off Note	 | chan= 1   | pitch=b 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=B 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=81
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=b 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=C 5	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=81
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=94
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=107
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=107
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=81
+	 23 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=83
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 5	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=84
+	 71 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=85
+	 95 |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=C 5	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=85
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=85
+	 23 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=86
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 5	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=88
+	 71 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=90
+	 95 |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+  40: 1:  0 |On Note	 | chan= 1   | pitch=C 5	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=90
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=90
+	 23 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=91
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 5	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=91
+	 71 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=91
+	 95 |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=C 5	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=91
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=91
+	 23 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=G 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=91
+	 47 |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=C 5	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=108
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=108
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=91
+	 71 |Off Note	 | chan= 1   | pitch=c 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=G 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=C 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=106
+	    |On Note	 | chan= 1   | pitch=A 2	 | vol=91
+	 95 |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=g 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=c 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 2	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=D 5	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=92
+	    |On Note	 | chan= 1   | pitch=G 1	 | vol=92
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 23 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 47 |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 5	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 71 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+      4:  0 |On Note	 | chan= 1   | pitch=D 5	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=91
+	 23 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 47 |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 5	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 71 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+  41: 1:  0 |On Note	 | chan= 1   | pitch=D 5	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=89
+	 23 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=91
+	 47 |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 5	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=90
+	 71 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=88
+	 95 |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+      2:  0 |On Note	 | chan= 1   | pitch=D 5	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=105
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=105
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=88
+	    |On Note	 | chan= 1   | pitch=D 2	 | vol=82
+	 23 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 24 |On Note	 | chan= 1   | pitch=E 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=106
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=86
+	 47 |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 48 |On Note	 | chan= 1   | pitch=D 5	 | vol=106
+	    |On Note	 | chan= 1   | pitch=E 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=106
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=106
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=86
+	 71 |Off Note	 | chan= 1   | pitch=d 5	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+	 72 |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=D 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=G 2	 | vol=86
+	 95 |Off Note	 | chan= 1   | pitch=g 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=d 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=a 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=d 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=g 2	 | vol=64
+      3:  0 |On Note	 | chan= 1   | pitch=E 4	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 3	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 1	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 2	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 1	 | vol=104
+	    |On Note	 | chan= 1   | pitch=E 0	 | vol=104
+	    |On Note	 | chan= 1   | pitch=A 0	 | vol=104
+  43: 2: 95 |Off Note	 | chan= 1   | pitch=e 4	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 3	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 1	 | vol=0
+	    |Off Note	 | chan= 1   | pitch=e 2	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 1	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=e 0	 | vol=64
+	    |Off Note	 | chan= 1   | pitch=a 0	 | vol=64
+  44: 1:  0 |Controller  | chan= 1   | contr=RPN H | value=  0
+	    |Controller  | chan= 1   | contr=RPN L | value=  0
+	    |Controller  | chan= 1   | contr=Data H | value= 12
+	    |Controller  | chan= 1   | contr=Pan H | value= 64
+	    |Controller  | chan= 1   | contr=Volume H | value=100
+	    |Pitch Wheel | chan= 1   | bend=0
+	    |Program	 | chan= 1   | pgm #=  2 Bright Piano
+	  1 |Controller  | chan= 1   | contr=RPN H | value=  0
+	    |Controller  | chan= 1   | contr=RPN L | value=  0
+	    |Controller  | chan= 1   | contr=Data H | value= 12
+	    |Controller  | chan= 1   | contr=Pan H | value= 64
+	    |Controller  | chan= 1   | contr=Volume H | value=100
+	    |Pitch Wheel | chan= 1   | bend=0
+	    |Program	 | chan= 1   | pgm #=  2 Bright Piano
+	    |Controller  | chan= 1   | contr=RPN H | value=  0
+	    |Controller  | chan= 1   | contr=RPN L | value=  0
+	    |Controller  | chan= 1   | contr=Data H | value= 12
+	    |Controller  | chan= 1   | contr=Pan H | value= 64
+	    |Controller  | chan= 1   | contr=Volume H | value=100
+	    |Pitch Wheel | chan= 1   | bend=0
+	    |Program	 | chan= 1   | pgm #=  2 Bright Piano
+	    |End of track| 
+
+
+
+64 0 47 
+60 48 47 
+64 96 47
+60 144 47
+64 192 47
+60 240 47
+64 288 47
+60 336 47
+64 384 47
+60 432 47
+64 480 47
+60 528 47
+64 576 47
+60 624 47
+64 672 47
+60 720 47 
+64 768 47
+60 816 47
+64 864 47
+60 912 47
+64 960 47
+60 1008 47
+64 1056 47
+60 1104 47
+64 1152 47
+60 1200 47
+69 1248 95
+64 1248 47
+57 1248 95
+60 1296 47
+64 1344 47
+60 1392 47
+64 1440 47
+60 1488 47
+71 1536 95
+64 1536 47
+59 1536 95
+62 1584 47
+64 1632 47
+62 1680 47
+64 1728 47
+62 1776 47
+64 1824 47
+62 1872 47
+64 1920 47
+62 1968 47
+64 2016 47
+62 2064 47
+69 2112 95
+64 2112 47
+57 2112 95
+60 2160 47
+71 2208 95
+64 2208 47 
+59 2208 95
+62 2256 47
+72 2304 95
+64 2304 47
+60 2304 95
+62 2352 47
+71 2400 95
+64 2400 47
+59 2400 95
+62 2448 47
+69 2496 95
+64 2496 47
+57 2496 95
+62 2544 47
+71 2592 95
+64 2592 47
+59 2592 95
+62 2640 47
+72 2688 287 
+64 2688 47
+60 2688 287
+62 2736 47
+64 2784 47
+62 2832 47
+64 2880 47
+62 2928 47
+71 2976 287
+64 2976 47
+62 3024 47
+64 3072 47
+62 3120 47
+64 3168 47
+62 3216 47
+69 3264 95
+64 3264 95
+48 3264 95
+76 3360 95
+53 3360 95
+57 3456 95
+69 3552 95
+64 3552 95
+60 3552 287
+76 3648 95
+71 3840 95
+64 3840 95
+50 3840 95
+76 3936 95
+55 3936 95
+59 4032 95
+71 4128 95
+64 4128 95
+62 4128 287
+76 4224 95
+71 4320 96
+64 4416 95
+52 4416 95
+76 4512 95
+57 4512 95
+60 4608 95
+72 4704 95
+64 4704 95
+64 4704 287
+76 4800 95
+72 4896 96
+74 4992 95
+55 4992 95
+76 5088 95
+59 5088 95
+62 5184 95 
+74 5280 95
+62 5280 95
+67 5280 287
+76 5376 95
+71 5472 95
+48 5568 191
+53 5568 287
+57 5568 95
+64 5568 95
+69 5568 95
+76 5664 95
+48 5760 95
+69 5856 95
+64 5856 95
+57 5856 95
+53 5856 287
+41 5856 287
+76 5952 95
+72 6048 95
+71 6144 95
+64 6144 95
+59 6144 95
+55 6144 287
+50 6144 191
+76 6240 95
+50 6336 95
+71 6432 95
+64 6432 95
+59 6432 95
+55 6432 287
+43 6432 287
+76 6528 95
+74 6624 95
+72 6720 95
+64 6720 95
+60 6720 95
+57 6720 287
+52 6720 191 
+76 6816 95
+52 6912 95
+72 7008 95
+64 7008 95
+60 7008 95
+57 7008 287
+45 7008 287
+76 7104 95
+72 7200 95
+74 7296 95
+62 7296 95
+55 7296 287
+50 7296 191
+76 7392 95 
+50 7488 95
+74 7584 95
+62 7584 95
+55 7584 287
+43 7584 287
+76 7680 95
+71 7776 95
+48 7872 191
+53 7872 287
+57 7872 95
+64 7872 95
+69 7872 95
+41 7872 287
+76 7968 95
+69 8064 95
+48 8064 95
+53 8160 287
+57 8160 95
+64 8160 95
+69 8160 95
+48 8160 287
+41 8160 287
+76 8256 95
+69 8352 95
+50 8448 191
+55 8448 287
+59 8448 95
+64 8448 95
+71 8448 95
+43 8448 287
+76 8544 95
+71 8640 95
+50 8640 95
+55 8736 287
+59 8736 95
+64 8736 95
+71 8736 95
+50 8736 287
+43 8736 287
+76 8832 95
+71 8928 95
+52 9024 191
+57 9024 287 
+60 9024 95
+64 9024 95
+72 9024 95
+45 9024 287
+76 9120 95
+72 9216 95
+52 9216 95
+57 9312 287
+60 9312 95
+64 9312 95
+72 9312 95
+52 9312 287
+45 9312 287
+76 9408 95
+72 9504 95
+50 9600 575
+55 9600 287
+62 9600 95
+74 9600 95
+43 9600 287
+76 9696 95
+74 9792 95
+55 9888 287
+62 9888 95
+74 9888 95
+43 9888 287
+76 9984 95
+71 10080 95
+48 10176 287
+53 10176 287
+57 10176 95
+64 10176 95
+69 10176 95
+76 10272 95
+69 10368 95
+41 10464 287
+48 10464 287
+53 10464 287
+57 10464 95
+64 10464 95
+69 10464 95
+29 10464 287
+76 10560 95
+69 10656 95
+38 10752 287
+43 10752 287
+59 10752 95 
+64 10752 95
+71 10752 95
+76 10848 95
+71 10944 95
+43 11040 287
+50 11040 287
+55 11040 287
+59 11040 95
+64 11040 95
+71 11040 95
+31 11040 287
+76 11136 95
+71 11232 95
+40 11328 287
+45 11328 287
+60 11328 95
+64 11328 95
+72 11328 95
+76 11424 95
+72 11520 95
+45 11616 287
+52 11616 287
+57 11616 287
+60 11616 95
+64 11616 95
+72 11616 95
+33 11616 287
+76 11712 95
+72 11808 95
+38 11904 287 
+43 11904 287
+62 11904 95
+74 11904 95
+76 12000 95
+74 12096 95
+43 12192 287
+50 12192 287
+55 12192 287
+62 12192 95
+74 12192 95
+31 12192 287
+76 12288 95
+74 12384 95
+40 12480 191
+64 12480 767
+76 12480 767
+69 12480 767
+45 12480 767
+33 12480 767
+28 12480 767
+40 12672 191
+40 12864 191
+40 13056 191
+40 13248 383
+45 13248 95
+72 13248 23
+64 13248 23
+57 13248 23
+52 13248 23
+69 13272 23
+64 13272 23
+57 13272 23
+52 13272 23
+72 13296 23
+64 13296 23 
+57 13296 23
+52 13296 23
+69 13320 23
+64 13320 23
+57 13320 23
+52 13320 23
+72 13344 23
+64 13344 23
+57 13344 23
+52 13344 23
+45 13344 95
+69 13368 23
+64 13368 23
+57 13368 23
+52 13368 23
+72 13392 23
+64 13392 23
+57 13392 23
+52 13392 23
+69 13416 23
+64 13416 23
+57 13416 23
+52 13416 23
+72 13440 23
+64 13440 23
+57 13440 23
+52 13440 23
+45 13440 95
+69 13464 23
+64 13464 23
+57 13464 23
+52 13464 23
+72 13488 23
+64 13488 23
+57 13488 23
+52 13488 23
+69 13512 23
+64 13512 23
+57 13512 23 
+52 13512 23
+74 13536 23
+64 13536 23
+57 13536 23
+52 13536 23
+45 13536 95
+64 13560 23
+69 13560 23
+57 13560 23
+52 13560 23
+72 13584 23
+64 13584 23
+57 13584 23
+52 13584 23
+64 13608 23
+69 13608 23
+57 13608 23
+52 13608 23
+74 13632 23
+43 13632 95
+38 13632 383
+64 13632 23
+57 13632 23
+52 13632 23
+64 13656 23
+69 13656 23
+57 13656 23
+52 13656 23
+74 13680 23
+64 13680 23
+57 13680 23
+52 13680 23
+64 13704 23
+69 13704 23 
+57 13704 23
+52 13704 23
+74 13728 23
+64 13728 23
+57 13728 23
+52 13728 23
+43 13728 95
+64 13752 23
+69 13752 23
+57 13752 23
+52 13752 23
+74 13776 23
+64 13776 23
+57 13776 23
+52 13776 23
+64 13800 23
+69 13800 23
+57 13800 23
+52 13800 23
+74 13824 23
+64 13824 23
+57 13824 23
+52 13824 23
+43 13824 95
+64 13848 23
+69 13848 23
+57 13848 23
+52 13848 23
+74 13872 23
+64 13872 23
+57 13872 23
+52 13872 23
+64 13896 23
+69 13896 23
+57 13896 23
+52 13896 23
+74 13920 23
+64 13920 23 
+57 13920 23
+52 13920 23
+43 13920 95
+64 13944 23
+69 13944 23
+57 13944 23
+52 13944 23
+74 13968 23
+64 13968 23
+57 13968 23
+52 13968 23
+64 13992 23
+69 13992 23
+57 13992 23
+52 13992 23
+77 14016 23
+53 14016 23
+48 14016 95
+41 14016 383
+69 14016 23
+65 14016 23
+57 14016 23
+72 14040 23
+69 14040 23
+65 14040 23
+57 14040 23
+53 14040 23
+77 14064 23
+69 14064 23
+65 14064 23
+57 14064 23
+53 14064 23
+72 14088 23
+69 14088 23
+65 14088 23
+57 14088 23
+53 14088 23
+77 14112 23
+69 14112 23
+65 14112 23
+57 14112 23
+53 14112 23
+48 14112 95
+72 14136 23
+69 14136 23
+65 14136 23
+57 14136 23 
+53 14136 23
+77 14160 23
+69 14160 23
+65 14160 23
+57 14160 23
+53 14160 23
+72 14184 23
+69 14184 23
+65 14184 23
+57 14184 23
+53 14184 23
+79 14208 23
+69 14208 23
+65 14208 23
+57 14208 23
+53 14208 23
+48 14208 95
+72 14232 23
+69 14232 23
+65 14232 23
+57 14232 23
+53 14232 23
+79 14256 23
+69 14256 23
+65 14256 23
+57 14256 23
+53 14256 23
+72 14280 23
+69 14280 23
+65 14280 23
+57 14280 23
+53 14280 23
+79 14304 23
+69 14304 23
+65 14304 23
+57 14304 23
+53 14304 23
+48 14304 95
+72 14328 23
+69 14328 23 
+65 14328 23
+57 14328 23
+53 14328 23
+79 14352 23
+69 14352 23
+65 14352 23
+57 14352 23
+53 14352 23
+72 14376 23
+69 14376 23
+65 14376 23
+57 14376 23
+53 14376 23
+83 14400 23
+55 14400 23
+50 14400 95
+43 14400 383
+76 14400 23
+71 14400 23
+64 14400 23
+79 14424 23
+76 14424 23
+71 14424 23
+64 14424 23
+55 14424 23
+83 14448 23
+76 14448 23
+71 14448 23
+64 14448 23
+55 14448 23
+79 14472 23
+76 14472 23
+71 14472 23
+64 14472 23
+55 14472 23
+83 14496 23
+76 14496 23
+71 14496 23
+64 14496 23
+55 14496 23
+50 14496 95
+79 14520 23
+76 14520 23
+71 14520 23
+64 14520 23
+55 14520 23
+83 14544 23
+76 14544 23
+71 14544 23
+64 14544 23
+55 14544 23
+79 14568 23
+76 14568 23
+71 14568 23 
+64 14568 23
+55 14568 23
+83 14592 23
+76 14592 23
+71 14592 23
+64 14592 23
+55 14592 23
+50 14592 95
+79 14616 23
+76 14616 23
+71 14616 23
+64 14616 23
+55 14616 23
+83 14640 23
+76 14640 23
+71 14640 23
+64 14640 23
+55 14640 23
+79 14664 23
+76 14664 23
+71 14664 23
+64 14664 23
+55 14664 23
+83 14688 23
+76 14688 23
+71 14688 23
+64 14688 23
+55 14688 23
+50 14688 95
+79 14712 23
+76 14712 23
+71 14712 23
+64 14712 23
+55 14712 23 
+83 14736 23
+76 14736 23
+71 14736 23
+64 14736 23
+55 14736 23
+79 14760 23
+76 14760 23
+71 14760 23
+64 14760 23
+55 14760 23
+84 14784 23
+52 14784 95
+45 14784 383
+76 14784 23
+72 14784 23
+64 14784 23
+57 14784 23
+79 14808 23
+76 14808 23
+72 14808 23
+64 14808 23
+57 14808 23
+84 14832 23
+76 14832 23
+72 14832 23
+64 14832 23
+57 14832 23
+79 14856 23
+76 14856 23
+72 14856 23
+64 14856 23
+57 14856 23
+84 14880 23
+76 14880 23
+72 14880 23
+64 14880 23
+57 14880 23
+52 14880 95
+79 14904 23
+76 14904 23
+72 14904 23
+64 14904 23
+57 14904 23
+84 14928 23
+76 14928 23
+72 14928 23
+64 14928 23
+57 14928 23
+79 14952 23
+76 14952 23
+72 14952 23 
+64 14952 23
+57 14952 23
+84 14976 23
+76 14976 23
+72 14976 23
+64 14976 23
+57 14976 23
+52 14976 95
+79 15000 23
+76 15000 23
+72 15000 23
+64 15000 23
+57 15000 23
+84 15024 23
+76 15024 23
+72 15024 23
+64 15024 23
+57 15024 23
+79 15048 23
+76 15048 23
+72 15048 23
+64 15048 23
+57 15048 23
+84 15072 23
+76 15072 23
+72 15072 23
+64 15072 23
+57 15072 23
+52 15072 95
+79 15096 23
+76 15096 23
+72 15096 23
+64 15096 23
+57 15096 23
+84 15120 23
+76 15120 23
+72 15120 23
+64 15120 23
+57 15120 23
+79 15144 23
+76 15144 23
+72 15144 23
+64 15144 23
+57 15144 23
+86 15168 23
+50 15168 95
+43 15168 383
+76 15168 23
+74 15168 23
+64 15168 23
+55 15168 23 
+76 15192 23
+81 15192 23
+74 15192 23
+64 15192 23
+55 15192 23
+86 15216 23
+76 15216 23
+74 15216 23
+64 15216 23
+55 15216 23
+76 15240 23
+81 15240 23
+74 15240 23
+64 15240 23
+55 15240 23
+86 15264 23
+76 15264 23
+74 15264 23
+64 15264 23
+55 15264 23
+50 15264 95
+76 15288 23
+81 15288 23
+74 15288 23
+64 15288 23
+55 15288 23
+86 15312 23
+76 15312 23
+74 15312 23
+64 15312 23
+55 15312 23
+76 15336 23
+81 15336 23
+74 15336 23
+64 15336 23
+55 15336 23
+86 15360 23
+76 15360 23
+74 15360 23
+64 15360 23
+55 15360 23 
+50 15360 95
+76 15384 23
+81 15384 23
+74 15384 23
+64 15384 23
+55 15384 23
+86 15408 23
+76 15408 23
+74 15408 23
+64 15408 23
+55 15408 23
+76 15432 23
+81 15432 23
+74 15432 23
+64 15432 23
+55 15432 23
+86 15456 23
+76 15456 23
+74 15456 23
+64 15456 23
+55 15456 23
+50 15456 95
+76 15480 23
+81 15480 23
+74 15480 23
+64 15480 23
+55 15480 23
+86 15504 23
+76 15504 23
+74 15504 23
+64 15504 23
+55 15504 23
+76 15528 23
+81 15528 23
+74 15528 23
+64 15528 23
+55 15528 23
+76 15552 767
+64 15552 767
+40 15552 767
+52 15552 767
+45 15552 767
+28 15552 767
+33 15552 767
+
+
+48 0 1823    
+45 0 1823    
+55 1920 1823 
+40 1920 1823 
+47 3840 1823 
+43 3840 1823 
+54 5760 1823 
+38 5760 1823 
+48 7680 1823 
+45 7680 1823 
+59 9600 1823
+36 9600 1823
+47 11520 1823
+43 11520 1823
+54 13440 1823
+38 13440 1823
+60 15360 1823
+45 15360 1823
+48 15360 1823
+57 15360 1823
+55 17280 1823
+67 17280 1823 
+40 17280 1823
+52 17280 1823
+59 19200 1823 
+43 19200 1823
+47 19200 1823
+55 19200 1823
+54 21120 1823
+66 21120 1823
+38 21120 1823
+50 21120 1823
+60 23040 1823
+45 23040 1823
+48 23040 1823
+57 23040 1823
+59 24960 1823
+71 24960 1823
+36 24960 1823
+48 24960 1823
+59 26880 1823
+43 26880 1823
+47 26880 1823
+55 26880 1823
+54 28800 1823
+66 28800 1823 
+38 28800 1823
+50 28800 1823
+60 30720 1823
+33 30720 455
+48 31200 455
+47 31680 455 
+45 32160 455
+67 32640 1823
+55 32640 911
+28 32640 455
+40 33120 455
+42 33600 455 
+40 34080 455
+59 34560 1823
+31 34560 455
+47 35040 455
+45 35520 455
+43 36000 455
+66 36480 1823
+54 36480 911
+26 36480 455
+38 36960 455
+40 37440 455
+38 37920 455
+60 38400 1823
+33 38400 455
+48 38880 455
+47 39360 455
+45 39840 455
+59 40320 1823
+71 40320 1823
+24 40320 455 
+36 40800 455
+45 41280 455
+43 41760 455
+59 42240 1823
+31 42240 455 
+47 42720 455
+45 43200 455
+43 43680 455
+66 44160 1823
+54 44160 911
+26 44160 455
+38 44640 455
+64 45120 455
+52 45120 455
+62 45600 455
+50 45600 455
+48 46080 455
+60 46080 455
+33 46080 227
+45 46320 227
+60 46560 455
+33 46560 227
+45 46800 227
+59 47040 455 
+33 47040 227
+45 47280 227
+57 47520 455
+33 47520 227
+45 47760 227
+55 48000 455
+59 48000 455
+67 48000 455
+40 48000 1823
+52 48480 455
+54 48960 455
+52 49440 455
+47 49920 455
+59 49920 455
+31 49920 227
+43 50160 227
+59 50400 455
+31 50400 227
+43 50640 227
+57 50880 455
+31 50880 227
+43 51120 227
+55 51360 455
+31 51360 227
+43 51600 227
+54 51840 455
+57 51840 455
+66 51840 455 
+38 51840 1823
+50 52320 455
+52 52800 455
+50 53280 455
+48 53760 455
+60 53760 455
+33 53760 227
+45 54000 227
+60 54240 455
+33 54240 227
+45 54480 227
+59 54720 455
+33 54720 227
+45 54960 227
+57 55200 455
+33 55200 227
+45 55440 227
+59 55680 455
+64 55680 455
+71 55680 455
+36 55680 1823
+48 56160 455 
+57 56640 455
+55 57120 455
+47 57600 455
+59 57600 455
+31 57600 227
+43 57840 227
+59 58080 455
+31 58080 227
+43 58320 227
+57 58560 455
+31 58560 227
+43 58800 227
+55 59040 455
+31 59040 227
+43 59280 227
+54 59520 455
+57 59520 455
+66 59520 455
+50 59520 455
+50 60000 455
+57 60000 455
+62 60000 455
+52 60480 455
+59 60480 455 
+64 60480 455
+38 60480 455
+50 60960 455
+57 60960 455
+62 60960 455
+26 60960 455
+72 61440 113
+60 61440 455
+45 61440 113
+71 61560 113
+45 61560 113
+71 61680 113
+45 61680 113
+64 61800 113
+45 61800 113
+69 61920 113
+60 61920 455
+45 61920 113
+71 62040 113
+45 62040 113
+71 62160 113
+45 62160 113
+64 62280 113
+45 62280 113
+69 62400 113 
+59 62400 455
+45 62400 113
+71 62520 113
+45 62520 113
+71 62640 113
+45 62640 113
+64 62760 113 
+45 62760 113 
+69 62880 113
+57 62880 455
+45 62880 113
+71 63000 113
+45 63000 113
+71 63120 113
+45 63120 113
+64 63240 113
+45 63240 113
+67 63360 113 
+79 63360 113
+40 63360 455
+52 63360 455
+71 63480 113
+71 63600 113
+67 63720 113
+69 63840 113
+52 63840 455
+71 63960 113
+71 64080 113
+67 64200 113
+69 64320 113
+54 64320 455
+71 64440 113
+71 64560 113 
+64 64680 113
+69 64800 113
+52 64800 455
+71 64920 113
+71 65040 113
+64 65160 113
+71 65280 113
+59 65280 455
+43 65280 113
+71 65400 113
+43 65400 113
+71 65520 113
+43 65520 113
+64 65640 113
+43 65640 113
+69 65760 113
+59 65760 455
+43 65760 113
+71 65880 113
+43 65880 113
+71 66000 113
+43 66000 113
+64 66120 113
+43 66120 113
+69 66240 113
+57 66240 455
+43 66240 113
+71 66360 113
+43 66360 113
+71 66480 113
+43 66480 113
+64 66600 113
+43 66600 113
+69 66720 113
+55 66720 455
+43 66720 113
+71 66840 113
+43 66840 113
+71 66960 113
+43 66960 113
+64 67080 113 
+43 67080 113
+66 67200 113
+78 67200 113
+38 67200 455
+50 67200 455
+69 67320 113
+69 67440 113
+62 67560 113
+67 67680 113
+50 67680 455
+69 67800 113
+69 67920 113
+62 68040 113
+67 68160 113
+52 68160 455
+69 68280 113
+69 68400 113
+62 68520 113
+67 68640 113
+50 68640 455
+69 68760 113 
+69 68880 113
+62 69000 113
+72 69120 113
+60 69120 455
+45 69120 113
+71 69240 113
+45 69240 113
+71 69360 113
+45 69360 113
+64 69480 113
+45 69480 113
+69 69600 113
+60 69600 455
+45 69600 113
+71 69720 113
+45 69720 113
+71 69840 113
+45 69840 113
+64 69960 113
+45 69960 113
+69 70080 113
+59 70080 455
+45 70080 113
+71 70200 113
+45 70200 113
+71 70320 113
+45 70320 113
+64 70440 113
+45 70440 113
+69 70560 113
+57 70560 455 
+45 70560 113
+71 70680 113
+45 70680 113
+71 70800 113
+45 70800 113
+64 70920 113
+45 70920 113
+71 71040 113
+83 71040 113
+36 71040 455
+48 71040 455
+71 71160 113
+71 71280 113
+64 71400 113
+69 71520 113
+48 71520 455
+71 71640 113
+71 71760 113
+64 71880 113
+69 72000 113
+45 72000 455
+71 72120 113
+71 72240 113
+64 72360 113
+69 72480 113
+43 72480 455
+71 72600 113
+71 72720 113
+64 72840 113
+71 72960 113
+59 72960 455
+43 72960 113
+71 73080 113
+43 73080 113
+71 73200 113
+43 73200 113 
+64 73320 113
+43 73320 113
+69 73440 113
+59 73440 455
+43 73440 113
+71 73560 113
+43 73560 113
+71 73680 113
+43 73680 113
+64 73800 113
+43 73800 113 
+69 73920 113
+57 73920 455
+43 73920 113
+71 74040 113
+43 74040 113
+71 74160 113
+43 74160 113
+64 74280 113
+43 74280 113
+69 74400 113
+55 74400 455
+43 74400 113
+71 74520 113
+43 74520 113
+71 74640 113
+43 74640 113
+64 74760 113
+43 74760 113
+66 74880 113
+78 74880 113
+38 74880 455
+50 74880 455
+69 75000 113
+69 75120 113
+62 75240 113
+67 75360 113
+50 75360 455
+69 75480 113
+69 75600 113
+62 75720 113
+67 75840 113
+52 75840 455
+69 75960 113
+69 76080 113
+62 76200 113
+67 76320 113
+50 76320 455
+69 76440 113
+69 76560 113 
+62 76680 113
+60 76800 227
+72 76800 227
+33 76800 113
+45 76920 113
+71 77040 227
+33 77040 113
+45 77160 113
+59 77280 227
+71 77280 227
+33 77280 113
+45 77400 113
+71 77520 227
+33 77520 113
+45 77640 113
+57 77760 227
+69 77760 227
+33 77760 113
+45 77880 113
+71 78000 227
+33 78000 113
+45 78120 113
+66 78240 227
+78 78240 227
+33 78240 113
+45 78360 113
+71 78480 227
+33 78480 113
+45 78600 113
+67 78720 227
+71 78720 227
+76 78720 227
+79 78720 227
+28 78720 227
+71 78960 227
+40 78960 227
+69 79200 113
+28 79200 227
+71 79320 113
+71 79440 227
+40 79440 227
+69 79680 113 
+28 79680 227
+71 79800 113
+71 79920 227
+40 79920 227
+69 80160 113
+28 80160 227
+71 80280 113
+71 80400 227
+40 80400 227
+59 80640 227
+71 80640 227
+33 80640 113 
+45 80760 113
+71 80880 227
+33 80880 113
+45 81000 113
+57 81120 227
+69 81120 227
+33 81120 113
+45 81240 113
+71 81360 227
+33 81360 113
+45 81480 113
+50 81600 227
+62 81600 227
+33 81600 113
+45 81720 113
+71 81840 227
+33 81840 113
+45 81960 113
+64 82080 227
+76 82080 227
+33 82080 113
+45 82200 113
+71 82320 227
+33 82320 113
+45 82440 113
+66 82560 227
+69 82560 227
+74 82560 227
+78 82560 227
+26 82560 227
+69 82800 227
+38 82800 227
+67 83040 113
+26 83040 227
+69 83160 113
+69 83280 227
+38 83280 227
+67 83520 113
+26 83520 227
+69 83640 113 
+69 83760 227
+38 83760 227
+67 84000 113
+26 84000 227
+69 84120 113
+69 84240 227
+38 84240 227
+60 84480 227
+72 84480 227
+33 84480 113
+45 84600 113
+71 84720 227
+33 84720 113
+45 84840 113
+59 84960 227
+71 84960 227
+33 84960 113
+45 85080 113
+71 85200 227
+33 85200 113
+45 85320 113
+57 85440 227
+69 85440 227
+33 85440 113
+45 85560 113
+71 85680 227
+33 85680 113
+45 85800 113
+66 85920 227
+78 85920 227
+33 85920 113
+45 86040 113
+71 86160 227
+33 86160 113
+45 86280 113
+71 86400 227
+74 86400 227 
+79 86400 227
+83 86400 227
+24 86400 113
+36 86520 113
+59 86640 227
+24 86640 113
+36 86760 113
+57 86880 227
+69 86880 227
+24 86880 113 
+36 87000 113
+59 87120 227
+24 87120 113
+36 87240 113
+54 87360 227
+66 87360 227
+24 87360 113
+36 87480 113
+59 87600 227
+24 87600 113
+36 87720 113
+50 87840 227
+62 87840 227
+24 87840 113
+36 87960 113
+59 88080 227
+24 88080 113
+36 88200 113
+59 88320 227
+71 88320 227
+33 88320 113
+45 88440 113
+71 88560 227
+33 88560 113
+45 88680 113
+57 88800 227
+69 88800 227
+33 88800 113
+45 88920 113
+71 89040 227
+33 89040 113
+45 89160 113
+50 89280 227
+62 89280 227
+33 89280 113
+45 89400 113
+71 89520 227
+33 89520 113 
+45 89640 113
+64 89760 227
+76 89760 227
+33 89760 113
+45 89880 113
+71 90000 227
+33 90000 113
+45 90120 113
+66 90240 227
+69 90240 227
+74 90240 227
+78 90240 227
+26 90240 113
+38 90360 113 
+69 90480 227
+26 90480 113
+38 90600 113
+67 90720 113
+26 90720 113
+69 90840 113
+38 90840 113
+69 90960 227
+26 90960 113
+38 91080 113
+67 91200 113
+26 91200 113
+69 91320 113
+38 91320 113
+69 91440 227
+26 91440 113
+38 91560 113
+67 91680 113
+26 91680 113
+69 91800 113
+38 91800 113
+69 91920 227
+26 91920 113 
+38 92040 113
+72 92160 911
+76 92160 911
+81 92160 911
+84 92160 911
+33 92160 227
+45 92400 75
+48 92480 75
+52 92560 75
+57 92640 75
+52 92720 75
+48 92800 75
+45 92880 75
+40 92960 75
+36 93040 75
+71 93120 455
+76 93120 455
+79 93120 455
+83 93120 455
+30 93120 75
+36 93200 75
+40 93280 75
+45 93360 75
+48 93440 75
+52 93520 75
+64 93600 455
+67 93600 455
+71 93600 455
+76 93600 455
+57 93600 75
+48 93680 75
+52 93760 75
+57 93840 75
+48 93920 75
+52 94000 75
+67 94080 911
+71 94080 911
+76 94080 911
+79 94080 911
+28 94080 227
+40 94080 227
+55 94320 75
+52 94400 75 
+47 94480 75
+43 94560 75
+47 94640 75
+52 94720 75
+55 94800 75
+52 94880 75
+47 94960 75
+66 95040 455
+69 95040 455
+74 95040 455
+78 95040 455
+43 95040 75
+40 95120 75
+35 95200 75
+31 95280 75
+28 95360 75
+31 95440 75
+59 95520 455
+62 95520 455 
+66 95520 455
+71 95520 455
+35 95520 75
+40 95600 75
+43 95680 75
+40 95760 75
+43 95840 75
+47 95920 75
+71 96000 911
+74 96000 911
+79 96000 911
+83 96000 911
+31 96000 227
+43 96240 75
+47 96320 75
+50 96400 75
+55 96480 75
+50 96560 75
+47 96640 75
+43 96720 75
+38 96800 75
+35 96880 75
+69 96960 455
+74 96960 455
+78 96960 455
+81 96960 455
+31 96960 75
+35 97040 75
+38 97120 75
+43 97200 75
+47 97280 75
+50 97360 75
+62 97440 455
+66 97440 455
+69 97440 455
+74 97440 455
+55 97440 75 
+47 97520 75
+50 97600 75
+55 97680 75
+47 97760 75
+50 97840 75
+78 97920 911
+81 97920 911
+86 97920 911
+90 97920 911
+26 97920 227
+38 97920 227
+54 98160 75
+50 98240 75
+45 98320 75
+42 98400 75
+45 98480 75
+50 98560 75
+54 98640 75
+50 98720 75
+45 98800 75
+64 98880 455
+67 98880 455
+71 98880 455
+76 98880 455
+42 98880 75
+38 98960 75
+33 99040 75
+30 99120 75
+26 99200 75
+30 99280 75
+57 99360 455
+62 99360 455
+66 99360 455
+69 99360 455
+33 99360 75
+38 99440 75
+42 99520 75
+38 99600 75
+42 99680 75
+45 99760 75 
+72 99840 911
+76 99840 911
+81 99840 911
+84 99840 911 
+33 99840 227
+40 99840 227
+45 100080 75
+48 100160 75
+52 100240 75
+57 100320 75
+52 100400 75
+48 100480 75
+45 100560 75
+40 100640 75
+36 100720 75
+71 100800 455
+76 100800 455
+79 100800 455
+83 100800 455
+33 100800 75
+36 100880 75
+40 100960 75
+45 101040 75
+48 101120 75
+52 101200 75
+64 101280 455
+67 101280 455
+71 101280 455
+76 101280 455
+57 101280 75
+48 101360 75
+52 101440 75
+57 101520 75
+52 101600 75
+57 101680 75
+83 101760 911
+86 101760 911
+91 101760 911 
+95 101760 911
+28 101760 227
+40 101760 227
+52 102000 75
+48 102080 75
+43 102160 75
+40 102240 75
+43 102320 75
+48 102400 75
+52 102480 75
+48 102560 75
+43 102640 75
+67 102720 455
+71 102720 455
+76 102720 455
+79 102720 455
+40 102720 75
+36 102800 75
+31 102880 75
+28 102960 75
+24 103040 75
+28 103120 75
+60 103200 455
+64 103200 455
+67 103200 455
+72 103200 455
+31 103200 75
+36 103280 75
+40 103360 75
+36 103440 75
+40 103520 75
+43 103600 75
+71 103680 911
+74 103680 911
+79 103680 911
+83 103680 911
+31 103680 227
+43 103920 75
+47 104000 75 
+50 104080 75
+55 104160 75
+50 104240 75
+47 104320 75
+43 104400 75
+38 104480 75
+35 104560 75
+69 104640 455
+74 104640 455
+78 104640 455 
+81 104640 455
+31 104640 75
+35 104720 75
+38 104800 75
+43 104880 75
+47 104960 75
+50 105040 75
+62 105120 455
+66 105120 455
+69 105120 455
+74 105120 455
+55 105120 75
+47 105200 75
+50 105280 75
+55 105360 75
+47 105440 75
+50 105520 75
+78 105600 911
+81 105600 911
+86 105600 911
+90 105600 911
+26 105600 227
+38 105600 227
+54 105840 75
+50 105920 75
+45 106000 75
+42 106080 75
+45 106160 75
+50 106240 75
+54 106320 75
+50 106400 75
+45 106480 75
+64 106560 455
+67 106560 455
+71 106560 455
+76 106560 455
+42 106560 75
+38 106640 75
+33 106720 75
+30 106800 75
+26 106880 75
+30 106960 75
+57 107040 455
+62 107040 455
+66 107040 455
+69 107040 455
+33 107040 75
+38 107120 75 
+42 107200 75
+38 107280 75
+42 107360 75
+45 107440 75
+72 107520 1823
+69 107520 1823
+79 109440 1823
+64 109440 1823
+71 111360 1823
+67 111360 1823
+78 113280 1823
+62 113280 1823
+72 115200 1823
+69 115200 1823
+83 117120 1823
+60 117120 1823
+71 119040 1823
+67 119040 1823
+78 120960 1823
+64 120960 1823
+72 122880 1823
+69 122880 1823
+79 124800 1823
+64 124800 1823
+71 126720 1823
+67 126720 1823
+78 128640 1823
+62 128640 1823
+72 130560 1823
+69 130560 1823
+83 132480 1823
+60 132480 1823
+71 134400 1823
+67 134400 1823
+78 136320 1823
+62 136320 1823
+
+
+
