@@ -17,16 +17,23 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 function genLargeNum(){
-	return Math.random().toString();
+	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
 }
+
+
+
+/*
+ * guess a number.
+ * It tells how close your are compared to your peers in ranking
+ * at the end of the day it shows the previous number and stores it in the database
+ * it also stores the high scores for one day.
+ *
+*/
 
 const server = http.createServer((req, res) => {
 	fs.readFile('index.html', ((err, data) => {
 		res.writeHead(200, {'Content-type': 'text/html'});
 		res.write(data);
-		res.write(uc.upperCase("uppercase is a module for lazy turds"));
-		res.write("<br/>");
-		res.write("<br/>");
 		res.write(genLargeNum());
 		return res.end();
 	}));

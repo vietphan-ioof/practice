@@ -10,7 +10,14 @@
 	</head>
 
 	<body> 
-			<h1> Welcome to the premiere gambling platform </h1>
+			<h1> Welcome to the premiere gambling platform fuckos</h1>
+			
+			Can You Guess The Number Of The Day?	
+
+			<form action="/" method="POST">
+			<input type="text" name="first_name" value="" maxlength="100000000000"/>
+			<input type="submit" value="Submit Your Answer and Await your results"/>
+			</form>
 	</body>
 
 </html>
