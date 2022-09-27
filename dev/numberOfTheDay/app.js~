@@ -16,11 +16,11 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
-	console.log(req);
-	res.writeHead(200, {'Content-Type': 'text/html'});
-	res.write(req.url);
-	console.log("BRO???");
-	res.end();
+	fs.readFile('index.html', ((err, data) => {
+		res.writeHead(200, {'Content-type': 'text/html'});
+		res.write(data);
+		return res.end();
+	}));
 });
 
 server.listen(port, hostname, () => {
