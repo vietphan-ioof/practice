@@ -26,38 +26,23 @@ function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
 }
 
-function parsePost(request, response, callback){
-	var queryData = "";
-	if(typeof callback !== 'function') return null;
-
-	if(request.method == 'POST'){
-		request.on('data', function(data) {
-			queryData+=data;
-			if(queryData.length > 1e6){
-				queryData = "";
-				response.writeHead(413, {'Content-Type': 'text/plain'}).end();
-				request.connection.destroy();
+function handler(req, res){
+	var POST = {};
+	if(req.method == 'POST'){
+		req.on('data', function(data){
+			data = data.toString();
+			data = data.split('&');
+			for(x=0; x<data.length; x++){
+				var _data = data[x].split("=");
+				POST[_data[0]] = _data[1];
 			}
+			console.log(POST);
 		});
-		
-		request.on('end', function() {
-			request.post = querystring.parse(queryData);
-			callback();
-		});
-	}else {
-		response.writeHead(405, {'Content-Type': 'text/plain'});
-		response.end();
 	}
 }
 
-
 const server = http.createServer((req, res) => {
-	if(req.method == 'POST'){
-		parsePost(req, res, function(){
-			console.log("THE RESULTS");
-			console.log(req.post);
-		});
-	}
+	handler(req, res);
 	fs.readFile('index.html', ((err, data) => {
 		res.writeHead(200, {'Content-type': 'text/html'});
 		res.write(data);
