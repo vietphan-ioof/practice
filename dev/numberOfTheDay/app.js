@@ -27,29 +27,6 @@ function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
 }
 
-let handler = async function(req, res){
-	var POST = {};
-	if(req.method == 'POST'){
-		req.on('data', function(data){
-			data = data.toString();
-			data = data.split('&');
-
-			for(x=0; x<data.length; x++){
-				var _data = data[x].split("=");
-				console.log(_data[1]);
-				POST[_data[0]] = _data[1];
-			}
-
-			//checks if the guessed number and the random number is equal
-			console.log(_data[1] + " | " + numOfDay.toString());
-			if(_data[1] === numOfDay.toString()){
-				return true;
-			}
-			return false;
-		});
-	}
-}
-
 const server = http.createServer((req, res) => {
 	var RESULT = false;
 
