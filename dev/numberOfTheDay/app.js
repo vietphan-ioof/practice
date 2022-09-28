@@ -37,12 +37,14 @@ function handler(req, res){
 				POST[_data[0]] = _data[1];
 			}
 			console.log(POST);
+			return POST;
 		});
 	}
 }
 
 const server = http.createServer((req, res) => {
-	handler(req, res);
+	var input = handler(req, res);
+	console.log(typeof input);
 	fs.readFile('index.html', ((err, data) => {
 		res.writeHead(200, {'Content-type': 'text/html'});
 		res.write(data);
