@@ -37,8 +37,10 @@ function init(){
 	console.log("NUMER OF THE DAYYYYYYY" + " " + numOfDay);
 }
 
+setInterval(function(){init()}, 5000);
+
+
 const server = http.createServer((req, res) => {
-	init();
 	var RESULT = false;
 	
 	if(req.method == "POST"){

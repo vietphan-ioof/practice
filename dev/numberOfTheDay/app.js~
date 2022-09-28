@@ -34,10 +34,13 @@ function testNumberGenerator(){
 
 function init(){
 	numOfDay = testNumberGenerator();
+	console.log("NUMER OF THE DAYYYYYYY" + " " + numOfDay);
 }
 
+setInterval(function(){init()}, 3000);
+
+
 const server = http.createServer((req, res) => {
-	init();
 	var RESULT = false;
 	
 	if(req.method == "POST"){
