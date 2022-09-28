@@ -27,7 +27,7 @@ function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
 }
 
-function handler(req, res, callback){
+const handler = async function(req, res){
 	var POST = {};
 	if(req.method == 'POST'){
 		req.on('data', function(data){
@@ -44,16 +44,25 @@ function handler(req, res, callback){
 
 			console.log(_data[1] + " " + numOfDay.toString());
 			if(_data[1] === numOfDay.toString()){
-				return callback(true);
+				return true;
 			}
 
-			return callback(false);
+			return false;
 		});
 	}
 }
 
+const startHandler = async function(r, s){
+	const result = await handler(r, s);
+
+	return result;
+}
+
 const server = http.createServer((req, res) => {
-	var res = handler(req, res);
+	var result = startHandler(req, res);
+	console.log("IS THIS IT????");
+	console.log(result);
+
 	fs.readFile('index.html', ((err, data) => {
 		res.writeHead(200, {'Content-type': 'text/html'});
 		res.write(data);
