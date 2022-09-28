@@ -17,7 +17,7 @@
 const http = require('http');
 const fs = require('fs');
 const uc = require('upper-case');
-const querystring = ('querystring');
+const querystring = require('querystring');
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -27,7 +27,7 @@ function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
 }
 
-const handler = async function(req, res){
+let handler = async function(req, res){
 	var POST = {};
 	if(req.method == 'POST'){
 		req.on('data', function(data){
@@ -39,34 +39,48 @@ const handler = async function(req, res){
 				console.log(_data[1]);
 				POST[_data[0]] = _data[1];
 			}
-			console.log("input: ");
-			console.log(_data[1]);
 
-			console.log(_data[1] + " " + numOfDay.toString());
+			//checks if the guessed number and the random number is equal
+			console.log(_data[1] + " | " + numOfDay.toString());
 			if(_data[1] === numOfDay.toString()){
 				return true;
 			}
-
 			return false;
 		});
 	}
 }
 
-const startHandler = async function(r, s){
-	const result = await handler(r, s);
-
-	return result;
-}
-
 const server = http.createServer((req, res) => {
-	var result = startHandler(req, res);
-	console.log("IS THIS IT????");
-	console.log(result);
+	var RESULT = false;
+
+	if(req.method == "POST"){
+		var body = '';
+
+		req.on('data', function(data){
+			body+=data;
+
+			if(body.length > 1e6)
+				req.connection.destroy();
+		});
+
+		req.on('end', function() {
+			var post = querystring.parse(body);
+			console.log(post['guess']);
+			answer = post['guess'];
+
+			if(numOfDay.toString() === answer){
+
+				RESULT = true;
+			}
+		});
+	}
+
 
 	fs.readFile('index.html', ((err, data) => {
 		res.writeHead(200, {'Content-type': 'text/html'});
 		res.write(data);
 		res.write(genLargeNum());
+		res.write(RESULT.toString());
 		return res.end();
 	}));
 });
