@@ -21,6 +21,7 @@ const querystring = ('querystring');
 
 const hostname = '127.0.0.1';
 const port = 3000;
+var numOfDay = 0;
 
 function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
@@ -32,22 +33,37 @@ function handler(req, res){
 		req.on('data', function(data){
 			data = data.toString();
 			data = data.split('&');
+
 			for(x=0; x<data.length; x++){
 				var _data = data[x].split("=");
+				console.log(_data[1]);
 				POST[_data[0]] = _data[1];
 			}
-			return POST;
+			console.log("input: ");
+			console.log(_data[1]);
+
+			console.log(_data[1] + " " + numOfDay.toString());
+			if(_data[1] === numOfDay.toString()){
+				return(true);
+			}
+
+			return(false);
 		});
 	}
 }
 
 const server = http.createServer((req, res) => {
-	var input = handler(req, res);
-	console.log(typeof input);
 	fs.readFile('index.html', ((err, data) => {
 		res.writeHead(200, {'Content-type': 'text/html'});
 		res.write(data);
 		res.write(genLargeNum());
+		var result = handler(req, res).then(function(result){
+			return(result);
+		});
+		console.log(result);
+		if(result === true){
+			console.log("YOU DID IT MOTHAFUCKA");
+		}
 		return res.end();
 	}));
 });
