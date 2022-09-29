@@ -40,11 +40,39 @@ MongoClient.connect(url, function(err, db){
 	if(err) throw err;
 	console.log("Databasae created BOI!");
 	var dbo = db.db("mydb");
-	dbo.createCollection("leaderboard", function(err, res){
-		console.log("Collection created!");
+	var scoreX = { name: "", highScore: 5};
+	dbo.collection("leaderboard").insertOne(scoreX, function(err, res){
+		if(err) throw err;
+		console.log("1 document inserted");
 		db.close();
 	});
 });
+
+//storing top answer in cookie 
+function setCookie(cname, cvalue, exdays){
+	const d = new Date();
+	d.setTime(d.getTime() + (exdays*24*60*1000));
+	let expires = "expires="+ d.toUTCString();
+	document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname){
+	let name = cname + "=";
+	let decodedCookie = decodedURIComponent(document.cookie);
+	let ca = decodedCookie.split (';');
+	for(let i=0; i<ca.length;i++){
+		let c = ca[i];
+		while (c.charAt(0) == ' '){
+			c = c.substring(1);
+		}
+		if(c.indexOf(name) == 0){
+			return c.substring(name.length, c.length);
+		}
+	}
+	return "";
+}
+
+
 
 /*
 //generates the large random number that will cycle every 24 hours for the user to guess
