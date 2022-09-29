@@ -36,15 +36,18 @@ var topScore = null;
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017//mydb";
 
-
 MongoClient.connect(url, function(err, db){
 	if(err) throw err;
-	console.log("Databasae created boi!");
-	db.close();
+	console.log("Databasae created BOI!");
+	var dbo = db.db("mydb");
+	dbo.createCollection("leaderboard", function(err, res){
+		console.log("Collection created!");
+		db.close();
+	});
+
 });
 
-
-
+/*
 //generates the large random number that will cycle every 24 hours for the user to guess
 function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
@@ -109,7 +112,7 @@ server.listen(port, hostname, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-
+*/
 
 
 
