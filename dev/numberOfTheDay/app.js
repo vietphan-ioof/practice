@@ -28,8 +28,8 @@ const winner = "YOU WON YOU CHEEKY BASTARD!";
 const closeThanTopAnswer = "YOU ARE GETTING CLOSER MY FRIEND";
 const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
 
-var numOfDay = 0;
-var topScore = 5;
+var numOfDay = null;
+var topScore = null;
 
 //generates the large random number that will cycle every 24 hours for the user to guess
 function genLargeNum(){
