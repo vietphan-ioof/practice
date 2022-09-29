@@ -11,8 +11,10 @@
  * It tells how close your are compared to your peers in ranking
  * at the end of the day it shows the previous number and stores it in the database
  * it also stores the high scores for one day.
- *
 */
+
+// a self fullfilling leaderboard that shows at what time your best result was and if your headed in a better or worse direction 
+// compared to your top result.
 
 const http = require('http');
 const fs = require('fs');
@@ -21,15 +23,21 @@ const querystring = require('querystring');
 
 const hostname = '127.0.0.1';
 const port = 3000;
+
+const winner = "YOU WON YOU CHEEKY BASTARD!";
+const closeThanTopAnswer = "YOU ARE GETTING CLOSER MY FRIEND";
+const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
+
 var numOfDay = 0;
+var topScore = 5;
 
-
+//generates the large random number that will cycle every 24 hours for the user to guess
 function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
 }
 
 function testNumberGenerator(){
-	return Math.floor(Math.random()*(3-0) + 0).toString();
+	return Math.floor(Math.random()*(10-0) + 0).toString();
 }
 
 function init(){
@@ -37,11 +45,12 @@ function init(){
 	console.log("NUMER OF THE DAYYYYYYY" + " " + numOfDay);
 }
 
-setInterval(function(){init()}, 3000);
-
+//set this to update every 86400 seconds or 24 hours
+//setInterval(function(){init()}, 10000);
+init();
 
 const server = http.createServer((req, res) => {
-	var RESULT = false;
+	var RESULT = " ";
 	
 	if(req.method == "POST"){
 		var body = '';
@@ -59,17 +68,24 @@ const server = http.createServer((req, res) => {
 			answer = post['guess'];
 
 			if(numOfDay.toString() === answer){
-				RESULT = true;
+				RESULT = winner;
+			}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(topScore-numOfDay.toString())){
+				RESULT = closeThanTopAnswer;
+				topScore = answer;
+			}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(topScore-numOfDay.toString())){
+				RESULT = worseThanTopAnswer;
 			}
 		});
 	}
-
 
 	fs.readFile('index.html', ((err, data) => {
 		res.writeHead(200, {'Content-type': 'text/html'});
 		res.write(data);
 		res.write(genLargeNum());
-		res.write(RESULT.toString());
+		res.write('<br/>');
+		res.write(RESULT);
+		res.write('<br/>');
+		res.write(topScore.toString());
 		return res.end();
 	}));
 });
