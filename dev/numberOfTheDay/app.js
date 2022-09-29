@@ -21,6 +21,7 @@ const fs = require('fs');
 const uc = require('upper-case');
 const querystring = require('querystring');
 
+
 const hostname = '127.0.0.1';
 const port = 3000;
 
@@ -30,6 +31,19 @@ const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
 
 var numOfDay = null;
 var topScore = null;
+
+//creating mongodb database
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017//mydb";
+
+
+MongoClient.connect(url, function(err, db){
+	if(err) throw err;
+	console.log("Databasae created boi!");
+	db.close();
+});
+
+
 
 //generates the large random number that will cycle every 24 hours for the user to guess
 function genLargeNum(){
@@ -51,6 +65,7 @@ init();
 
 const server = http.createServer((req, res) => {
 	var RESULT = " ";
+	//store variable and update it in database.
 	
 	if(req.method == "POST"){
 		var body = '';
