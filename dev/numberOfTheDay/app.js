@@ -29,9 +29,10 @@ const winner = "YOU WON YOU CHEEKY BASTARD!";
 const closeThanTopAnswer = "YOU ARE GETTING CLOSER MY FRIEND";
 const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
 
-var numOfDay = null;
-var topScore = null;
+var numOfDay = 0;
+var topScore = 0;
 
+/*
 //creating mongodb database
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017//mydb";
@@ -47,6 +48,7 @@ MongoClient.connect(url, function(err, db){
 		db.close();
 	});
 });
+*/
 
 //storing top answer in cookie 
 function setCookie(cname, cvalue, exdays){
