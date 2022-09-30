@@ -30,7 +30,7 @@ const closeThanTopAnswer = "YOU ARE GETTING CLOSER MY FRIEND";
 const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
 
 var numOfDay = 0;
-var topScore = 0;
+var topScore = true;
 
 /*
 //creating mongodb database
@@ -74,19 +74,18 @@ function getCookie(cname){
 	return "";
 }
 
-
-
 //generates the large random number that will cycle every 24 hours for the user to guess
 function genLargeNum(){
-	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
+	return Math.floor(Math.random()*(1000000000000-1) + 1).toString();
 }
 
 function testNumberGenerator(){
-	return Math.floor(Math.random()*(10-0) + 0).toString();
+	return Math.floor(Math.random()*(10-1) + 1).toString();
 }
 
 function init(){
 	numOfDay = testNumberGenerator();
+	topScore = true;
 	console.log("NUMER OF THE DAYYYYYYY" + " " + numOfDay);
 }
 
@@ -96,8 +95,8 @@ init();
 
 const server = http.createServer((req, res) => {
 	var RESULT = " ";
+
 	//store variable and update it in database.
-	
 	if(req.method == "POST"){
 		var body = '';
 
@@ -113,12 +112,17 @@ const server = http.createServer((req, res) => {
 			console.log(post['guess']);
 			answer = post['guess'];
 
+			if(topScore === true){
+				setCookie("topGuess", answer);
+				topScore = false;
+			}
+
 			if(numOfDay.toString() === answer){
 				RESULT = winner;
-			}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(topScore-numOfDay.toString())){
+			}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(getCookie("topGuess")-numOfDay.toString())){
 				RESULT = closeThanTopAnswer;
-				topScore = answer;
-			}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(topScore-numOfDay.toString())){
+				setCookie("topGuess", answer, 1);
+			}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(getCookie("topGuess")-numOfDay.toString())){
 				RESULT = worseThanTopAnswer;
 			}
 		});
@@ -131,7 +135,7 @@ const server = http.createServer((req, res) => {
 		res.write('<br/>');
 		res.write(RESULT);
 		res.write('<br/>');
-		res.write(topScore.toString());
+		res.write(getCookie("topGuess").toString());
 		return res.end();
 	}));
 });
