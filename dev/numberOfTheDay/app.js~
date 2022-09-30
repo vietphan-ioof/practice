@@ -69,11 +69,11 @@ function getCookie(cname){
 			return c.substring(name.length, c.length);
 		}
 	}
+	return "";
 }
 
 
 
-/*
 //generates the large random number that will cycle every 24 hours for the user to guess
 function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-0) + 0).toString();
@@ -138,7 +138,6 @@ server.listen(port, hostname, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-*/
 
 
 
