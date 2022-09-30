@@ -20,6 +20,7 @@ const http = require('http');
 const fs = require('fs');
 const uc = require('upper-case');
 const querystring = require('querystring');
+const cookie = require('cookie');
 
 
 const hostname = '127.0.0.1';
@@ -50,28 +51,29 @@ MongoClient.connect(url, function(err, db){
 });
 */
 
-//storing top answer in cookie 
-function setCookie(cname, cvalue, exdays){
-	const d = new Date();
-	d.setTime(d.getTime() + (exdays*24*60*1000));
-	let expires = "expires="+ d.toUTCString();
-	document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+//storing topScore as a cookie 
+function parseCookies(request){
+	const list = {};
+	const cookieHeader = request.headers?.cookie;
+	if(!cookieHeader) return list;
+
+	cookieHeader.split(`;`).forEach(function(cookie) {
+		let [ name, ...rest] = cookie.split(`=`);
+		name = name?.trim();
+		if(!name) return;
+		const value = rest.join(`=`).trim();
+		if(!value) return;
+		list[name] = decodeURIComponent(value);
+	});
+	return list["topGuess"];
 }
 
-function getCookie(cname){
-	let name = cname + "=";
-	let decodedCookie = decodedURIComponent(document.cookie);
-	let ca = decodedCookie.split (';');
-	for(let i=0; i<ca.length;i++){
-		let c = ca[i];
-		while (c.charAt(0) == ' '){
-			c = c.substring(1);
-		}
-		if(c.indexOf(name) == 0){
-			return c.substring(name.length, c.length);
-		}
-	}
-	return "";
+function setCookie(cname, cvalue, response){
+	response.writeHead(200, {
+		"Set-Cookie": `${cname}=${cvalue}`,
+		"Content-Type": `text/plain`
+	});
+	console.log("worked!");
 }
 
 //generates the large random number that will cycle every 24 hours for the user to guess
@@ -113,16 +115,16 @@ const server = http.createServer((req, res) => {
 			answer = post['guess'];
 
 			if(topScore === true){
-				setCookie("topGuess", answer);
+				setCookie("topGuess", answer, res);
 				topScore = false;
 			}
 
 			if(numOfDay.toString() === answer){
 				RESULT = winner;
-			}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(getCookie("topGuess")-numOfDay.toString())){
+			}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(parseCookies("topGuess")-numOfDay.toString())){
 				RESULT = closeThanTopAnswer;
 				setCookie("topGuess", answer, 1);
-			}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(getCookie("topGuess")-numOfDay.toString())){
+			}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(parseCookies("topGuess")-numOfDay.toString())){
 				RESULT = worseThanTopAnswer;
 			}
 		});
@@ -135,7 +137,7 @@ const server = http.createServer((req, res) => {
 		res.write('<br/>');
 		res.write(RESULT);
 		res.write('<br/>');
-		res.write(getCookie("topGuess").toString());
+		res.write(parseCookies("topGuess").toString());
 		return res.end();
 	}));
 });
@@ -143,8 +145,6 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
 });
-
-
 
 
 
