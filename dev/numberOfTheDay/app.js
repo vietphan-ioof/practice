@@ -1,7 +1,5 @@
 //use ctrl+C to cancell and end the server
-
 /*
- *
  * A process that is blocked is one that is waiting for some event, 
  * such as a resource becoming available or the completion of an I/O operation.[1]
 */
