@@ -19,6 +19,7 @@ const fs = require('fs');
 const uc = require('upper-case');
 const querystring = require('querystring');
 const cookie = require('cookie');
+const request = require('request');
 
 
 const hostname = '127.0.0.1';
@@ -50,10 +51,14 @@ MongoClient.connect(url, function(err, db){
 */
 
 //storing topScore as a cookie 
+/*
 function parseCookies(request){
 	const list = {};
 	const cookieHeader = request.headers?.cookie;
-	if(!cookieHeader) return list;
+	console.log("Cookie Header: " + " " + cookieHeader);
+	if(!cookieHeader){
+		return list;
+	}
 
 	cookieHeader.split(`;`).forEach(function(cookie) {
 		let [ name, ...rest] = cookie.split(`=`);
@@ -62,19 +67,38 @@ function parseCookies(request){
 		const value = rest.join(`=`).trim();
 		if(!value) return;
 		list[name] = decodeURIComponent(value);
+		console.log(decodeURIComponent(value));
 	});
-	return list["topGuess"];
+	console.log(list);
+
 }
+*/
+
+function parseCookies(callback){
+	request('localhost:3000', function(error, response, body){
+		if(!error && response.statusCode == 200){
+			return callback(null, response.headers['set-cookie']);
+		}else{
+			return callback(error);
+		}
+	});
+}
+
+parseCookies(function(err, res){
+	if(!err)
+		console.log(res);
+})
 
 function setCookie(cname, cvalue, response){
 	response.writeHead(200, {
-		"Set-Cookie": `${cname}=${cvalue}`,
+		"set-cookie": `${cname}=${cvalue}`,
 		"Content-Type": `text/plain`
-	});
+	}),
 	console.log("worked!");
 }
 
 //generates the large random number that will cycle every 24 hours for the user to guess
+// adding grhahms number notation function
 function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-1) + 1).toString();
 }
@@ -94,6 +118,11 @@ function init(){
 init();
 
 const server = http.createServer((req, res) => {
+	setCookie("topGuess", 0, res);
+	parseCookies("topGuess");
+
+
+
 	var RESULT = " ";
 
 	//store variable and update it in database.
