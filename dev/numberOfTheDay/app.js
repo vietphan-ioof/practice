@@ -18,9 +18,6 @@ const http = require('http');
 const fs = require('fs');
 const uc = require('upper-case');
 const querystring = require('querystring');
-const cookie = require('cookie');
-const request = require('request');
-
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -48,54 +45,34 @@ MongoClient.connect(url, function(err, db){
 		db.close();
 	});
 });
+
 */
+
 
 //storing topScore as a cookie 
-/*
-function parseCookies(request){
-	const list = {};
-	const cookieHeader = request.headers?.cookie;
-	console.log("Cookie Header: " + " " + cookieHeader);
-	if(!cookieHeader){
-		return list;
-	}
 
-	cookieHeader.split(`;`).forEach(function(cookie) {
-		let [ name, ...rest] = cookie.split(`=`);
-		name = name?.trim();
-		if(!name) return;
-		const value = rest.join(`=`).trim();
-		if(!value) return;
-		list[name] = decodeURIComponent(value);
-		console.log(decodeURIComponent(value));
-	});
-	console.log(list);
 
+function parseCookies (request) {
+    const list = {};
+    const cookieHeader = request.headers?.cookie;
+    if (!cookieHeader) return list;
+
+    cookieHeader.split(`;`).forEach(function(cookie) {
+        let [ name, ...rest] = cookie.split(`=`);
+        name = name?.trim();
+        if (!name) return;
+        const value = rest.join(`=`).trim();
+        if (!value) return;
+        list[name] = decodeURIComponent(value);
+    });
+
+    return list;
 }
-*/
-
-function parseCookies(callback){
-	request('localhost:3000', function(error, response, body){
-		if(!error && response.statusCode == 200){
-			return callback(null, response.headers['set-cookie']);
-		}else{
-			return callback(error);
-		}
-	});
-}
-
-parseCookies(function(err, res){
-	if(!err)
-		console.log(res);
-})
 
 function setCookie(cname, cvalue, response){
-	response.writeHead(200, {
-		"set-cookie": `${cname}=${cvalue}`,
-		"Content-Type": `text/plain`
-	}),
-	console.log("worked!");
+	response.writeHead(200, {'Set-Cookie':'sesh=wakadoo; expires='+ new Date(new Date().getTime()+86409000).toUTCString()});
 }
+
 
 //generates the large random number that will cycle every 24 hours for the user to guess
 // adding grhahms number notation function
@@ -117,17 +94,24 @@ function init(){
 //setInterval(function(){init()}, 10000);
 init();
 
+let cookie = require('http.cookie');
+
 const server = http.createServer((req, res) => {
-	setCookie("topGuess", 0, res);
-	parseCookies("topGuess");
+		
+	console.log(cookies);
 
-
+	res.writeHead(200, {
+		"Set-Cookie": `mycookie=test`,
+		"Content-Type": `text/plain`
+	});
 
 	var RESULT = " ";
 
 	//store variable and update it in database.
 	if(req.method == "POST"){
 		var body = '';
+		
+		var cookies = parseCookies(req);
 
 		req.on('data', function(data){
 			body+=data;
