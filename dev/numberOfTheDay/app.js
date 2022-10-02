@@ -145,7 +145,7 @@ const server = http.createServer((req, res) => {
 		res.write('<br/>');
 		res.write(parseCookies("topGuess").toString());
 	}));
-	res.end();
+		res.end();
 });
 
 server.listen(port, hostname, () => {
