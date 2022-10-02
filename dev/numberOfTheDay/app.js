@@ -70,8 +70,10 @@ function parseCookies (request) {
 }
 
 function setCookie(cname, cvalue, response){
-	//response.writeHead(200, {'Set-Cookie':'sesh=wakadoo; expires='+ new Date(new Date().getTime()+86409000).toUTCString()});
-    response.setHeader('Set-Cookie','visited=true; Max-Age=3000; HttpOnly, Secure');
+	response.writeHead(200, {
+		"Set-Cookie": `mycookie=test`,
+		"Content-Type": `text/plain`
+	});
 }
 
 
@@ -95,9 +97,11 @@ function init(){
 init();
 
 const server = http.createServer((req, res) => {
-	setCookie(res);
-
-
+	console.log("THIS IS THE COOKIE");
+	console.log(parseCookies(req));
+	console.log("THIS IS THE COOKIE");
+	
+	setCookie('topguess', '20', res);
 
 	var RESULT = " ";
 
@@ -140,8 +144,8 @@ const server = http.createServer((req, res) => {
 		res.write(RESULT);
 		res.write('<br/>');
 		res.write(parseCookies("topGuess").toString());
-		return res.end();
 	}));
+	return res.end();
 });
 
 server.listen(port, hostname, () => {
