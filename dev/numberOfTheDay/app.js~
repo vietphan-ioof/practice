@@ -18,6 +18,8 @@ const http = require('http');
 const fs = require('fs');
 const uc = require('upper-case');
 const querystring = require('querystring');
+var Cookies = require('cookies');
+var cookieParser = require('cookie-parser');
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -31,15 +33,15 @@ var topScore = true;
 
 /*
 //creating mongodb database
-var MongoClient = require('mongodb').MongoClient;
+var mongoclient = require('mongodb').mongoclient;
 var url = "mongodb://localhost:27017//mydb";
 
-MongoClient.connect(url, function(err, db){
+mongoclient.connect(url, function(err, db){
 	if(err) throw err;
-	console.log("Databasae created BOI!");
+	console.log("databasae created boi!");
 	var dbo = db.db("mydb");
-	var scoreX = { name: "", highScore: 5};
-	dbo.collection("leaderboard").insertOne(scoreX, function(err, res){
+	var scorex = { name: "", highscore: 5};
+	dbo.collection("leaderboard").insertone(scorex, function(err, res){
 		if(err) throw err;
 		console.log("1 document inserted");
 		db.close();
@@ -48,13 +50,11 @@ MongoClient.connect(url, function(err, db){
 
 */
 
-
-//storing topScore as a cookie 
-
-
+//storing topscore as a cookie 
 function parseCookies (request) {
     const list = {};
     const cookieHeader = request.headers?.cookie;
+	console.log(request.headers);
     if (!cookieHeader) return list;
 
     cookieHeader.split(`;`).forEach(function(cookie) {
@@ -70,12 +70,12 @@ function parseCookies (request) {
 }
 
 function setCookie(cname, cvalue, response){
-	response.writeHead(200, {'Set-Cookie':'sesh=wakadoo; expires='+ new Date(new Date().getTime()+86409000).toUTCString()});
+	//response.writeHead(200, {'Set-Cookie':'sesh=wakadoo; expires='+ new Date(new Date().getTime()+86409000).toUTCString()});
+    response.setHeader('Set-Cookie','visited=true; Max-Age=3000; HttpOnly, Secure');
 }
 
 
 //generates the large random number that will cycle every 24 hours for the user to guess
-// adding grhahms number notation function
 function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-1) + 1).toString();
 }
@@ -94,25 +94,16 @@ function init(){
 //setInterval(function(){init()}, 10000);
 init();
 
-let cookie = require('http.cookie');
-
 const server = http.createServer((req, res) => {
-		
-	console.log(cookies);
+	setCookie(res);
 
-	res.writeHead(200, {
-		"Set-Cookie": `mycookie=test`,
-		"Content-Type": `text/plain`
-	});
+
 
 	var RESULT = " ";
 
-	//store variable and update it in database.
 	if(req.method == "POST"){
 		var body = '';
 		
-		var cookies = parseCookies(req);
-
 		req.on('data', function(data){
 			body+=data;
 
