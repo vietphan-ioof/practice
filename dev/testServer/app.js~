@@ -18,8 +18,8 @@ app.get('/', (req, res) => {
 	}
 	console.log("error here");
 	res.cookie('cookieName', 'cookieValue', {maxAge: 900000, httpOnly: true});
-	res.end();
 });
+res.end();
 
 app.listen(port, () => {
 	console.log('bruh cookies better work on this piece of shit ${port}');
