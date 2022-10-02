@@ -71,7 +71,7 @@ function parseCookies (request) {
 
 function setCookie(cname, cvalue, response){
 	response.writeHead(200, {
-		"Set-Cookie": `mycookie=test`,
+		"Set-Cookie": `${cname}=${cvalue}`,
 		"Content-Type": `text/plain`
 	});
 }
@@ -101,7 +101,7 @@ const server = http.createServer((req, res) => {
 	console.log(parseCookies(req));
 	console.log("THIS IS THE COOKIE");
 	
-	setCookie('topguess', '20', res);
+	setCookie('topGuess', '20', res);
 
 	var RESULT = " ";
 
@@ -145,7 +145,7 @@ const server = http.createServer((req, res) => {
 		res.write('<br/>');
 		res.write(parseCookies("topGuess").toString());
 	}));
-	return res.end();
+	res.end();
 });
 
 server.listen(port, hostname, () => {
