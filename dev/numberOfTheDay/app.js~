@@ -76,7 +76,6 @@ function setCookie(cname, cvalue, response){
 	});
 }
 
-
 //generates the large random number that will cycle every 24 hours for the user to guess
 function genLargeNum(){
 	return Math.floor(Math.random()*(1000000000000-1) + 1).toString();
@@ -97,12 +96,7 @@ function init(){
 init();
 
 const server = http.createServer((req, res) => {
-	console.log("THIS IS THE COOKIE");
-	console.log(parseCookies(req));
-	console.log("THIS IS THE COOKIE");
 	
-	setCookie('topGuess', '20', res);
-
 	var RESULT = " ";
 
 	if(req.method == "POST"){
@@ -136,16 +130,25 @@ const server = http.createServer((req, res) => {
 		});
 	}
 
-	fs.readFile('index.html', ((err, data) => {
-		res.writeHead(200, {'Content-type': 'text/html'});
-		res.write(data);
-		res.write(genLargeNum());
-		res.write('<br/>');
-		res.write(RESULT);
-		res.write('<br/>');
-		res.write(parseCookies("topGuess").toString());
-	}));
+	if(req.url === "/"){
+		fs.readFile("./index.html", ((err, data) => {
+			res.writeHead(200, {'Content-type': 'text/html'});
+			console.log("THIS IS THE COOKIE");
+			console.log(parseCookies(req));
+			console.log("THIS IS THE COOKIE");
+			res.write(data);
+			res.write(genLargeNum());
+			res.write('<br/>');
+			res.write(RESULT);
+			res.write('<br/>');
+			res.write(parseCookies("topGuess").toString());
+			res.end();
+		}));
+	}else if(req.url == '/style.css'){
+		res.setHeader('Content-type', 'text/css');
+		res.write(fs.readFileSync('style.css'));
 		res.end();
+	}
 });
 
 server.listen(port, hostname, () => {
