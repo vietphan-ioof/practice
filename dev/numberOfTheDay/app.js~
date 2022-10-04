@@ -144,15 +144,12 @@ const server = http.createServer((req, res) => {
 			res.write(parseCookies("topGuess").toString());
 			res.end();
 		}));
+
 	}else if(req.url == '/style.css'){
 		res.setHeader('Content-type', 'text/css');
 		res.write(fs.readFileSync('style.css'));
 		res.end();
 	}
-
-	res.end();
-	
-
 });
 
 server.listen(port, hostname, () => {
