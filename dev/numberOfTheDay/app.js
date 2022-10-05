@@ -29,26 +29,7 @@ const closeThanTopAnswer = "YOU ARE GETTING CLOSER MY FRIEND";
 const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
 
 var numOfDay = 0;
-var topScore = true;
-
-/*
-//creating mongodb database
-var mongoclient = require('mongodb').mongoclient;
-var url = "mongodb://localhost:27017//mydb";
-
-mongoclient.connect(url, function(err, db){
-	if(err) throw err;
-	console.log("databasae created boi!");
-	var dbo = db.db("mydb");
-	var scorex = { name: "", highscore: 5};
-	dbo.collection("leaderboard").insertone(scorex, function(err, res){
-		if(err) throw err;
-		console.log("1 document inserted");
-		db.close();
-	});
-});
-
-*/
+var firstTime = true;
 
 //storing topscore as a cookie 
 function parseCookies (request) {
@@ -72,7 +53,7 @@ function parseCookies (request) {
 function setCookie(cname, cvalue, response){
 	response.writeHead(200, {
 		"Set-Cookie": `${cname}=${cvalue}`,
-		"Content-Type": `text/plain`
+		"Content-Type": `text/plain`,
 	});
 }
 
@@ -100,6 +81,7 @@ const server = http.createServer((req, res) => {
 	var RESULT = " ";
 
 	if(req.method == "POST"){
+		console.log("POST REQUEST POST REQUEST BABY");
 		var body = '';
 		
 		req.on('data', function(data){
@@ -114,7 +96,8 @@ const server = http.createServer((req, res) => {
 			console.log(post['guess']);
 			answer = post['guess'];
 
-			if(topScore === true){
+			//this is not correct 
+			if(firstTime === true){
 				setCookie("topGuess", answer, res);
 				topScore = false;
 			}
@@ -123,7 +106,7 @@ const server = http.createServer((req, res) => {
 				RESULT = winner;
 			}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(parseCookies("topGuess")-numOfDay.toString())){
 				RESULT = closeThanTopAnswer;
-				setCookie("topGuess", answer, 1);
+				setCookie("topGuess", answer, res);
 			}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(parseCookies("topGuess")-numOfDay.toString())){
 				RESULT = worseThanTopAnswer;
 			}
