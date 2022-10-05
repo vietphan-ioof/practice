@@ -129,7 +129,18 @@ app.get('/' , (req, res) => {
 });
 
 app.post('/', function(req, res){
-	console.log(req.body);
+	console.log(req.body['guess']);
+	var answer = req.body['guess'];
+
+	var cookie = req.cookies.cookieName;
+
+	if(cookie === undefined){
+		res.cookie('topGuess', answer, {maxAge: 1000, httpOnly: true});
+		console.log(req.cookies);
+		console.log('cookie created successfully');
+	}
+	
+
 	res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
