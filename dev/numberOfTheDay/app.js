@@ -79,6 +79,8 @@ init();
 const server = http.createServer((req, res) => {
 	
 	var RESULT = " ";
+	var answer = 0;
+
 
 	if(req.method == "POST"){
 		console.log("POST REQUEST POST REQUEST BABY");
@@ -96,22 +98,24 @@ const server = http.createServer((req, res) => {
 			console.log(post['guess']);
 			answer = post['guess'];
 
-			//this is not correct 
-			if(firstTime === true){
-				setCookie("topGuess", answer, res);
-				topScore = false;
-			}
-
-			if(numOfDay.toString() === answer){
-				RESULT = winner;
-			}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(parseCookies("topGuess")-numOfDay.toString())){
-				RESULT = closeThanTopAnswer;
-				setCookie("topGuess", answer, res);
-			}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(parseCookies("topGuess")-numOfDay.toString())){
-				RESULT = worseThanTopAnswer;
-			}
 		});
 	}
+
+	//this is not correct 
+	if(typeof(parseCookies("topGuess")) === undefined){
+		console.log("THIS IS UNDEFINED BRUHHHHHH");
+		setCookie("topGuess", 0, res);
+	}
+
+	if(numOfDay.toString() === answer){
+		RESULT = winner;
+	}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(parseCookies("topGuess")-numOfDay.toString())){
+		RESULT = closeThanTopAnswer;
+		setCookie("topGuess", answer, res);
+	}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(parseCookies("topGuess")-numOfDay.toString())){
+		RESULT = worseThanTopAnswer;
+	}
+	
 
 	if(req.url === "/"){
 		fs.readFile("./index.html", ((err, data) => {
@@ -133,6 +137,10 @@ const server = http.createServer((req, res) => {
 		res.write(fs.readFileSync('style.css'));
 		res.end();
 	}
+	
+
+	
+
 });
 
 server.listen(port, hostname, () => {
