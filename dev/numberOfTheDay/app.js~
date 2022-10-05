@@ -89,7 +89,6 @@ function init(){
 init();
 
 
-
 app.get('/' , (req, res) => {
 	
 	var RESULT = " ";
@@ -97,7 +96,6 @@ app.get('/' , (req, res) => {
 
 	res.sendFile(path.join(__dirname, '/public/index.html'));
 
-/*
 
 	if(numOfDay.toString() === answer){
 		RESULT = winner;
@@ -126,13 +124,14 @@ app.get('/' , (req, res) => {
 		});
 
 	}
-	*/
 	
 
 });
 
-app.post('/post', function(req, res){
+app.post('/', function(req, res){
 	console.log(req.body);
+	res.send("recieved your request!");
+	res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 
