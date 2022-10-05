@@ -15,11 +15,23 @@
 // compared to your top result.
 
 const http = require('http');
+const express = require('express');
+const path = require("path");
+const app = express();
+
 const fs = require('fs');
 const uc = require('upper-case');
+const bodyParser = require('body-parser');
 const querystring = require('querystring');
-var Cookies = require('cookies');
 var cookieParser = require('cookie-parser');
+var Cookies = require('cookies');
+
+app.use(express.static("public"));
+
+app.use(cookieParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({extended: true}));
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -76,11 +88,16 @@ function init(){
 //setInterval(function(){init()}, 10000);
 init();
 
-const server = http.createServer((req, res) => {
+
+
+app.get('/' , (req, res) => {
 	
 	var RESULT = " ";
 	var answer = 0;
 
+	res.sendFile(path.join(__dirname, '/public/index.html'));
+
+/*
 
 	if(numOfDay.toString() === answer){
 		RESULT = winner;
@@ -89,28 +106,6 @@ const server = http.createServer((req, res) => {
 		setCookie("topGuess", answer, res);
 	}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(parseCookies("topGuess")-numOfDay.toString())){
 		RESULT = worseThanTopAnswer;
-	}
-
-	if(req.url === "/"){
-		console.log("BRUH");
-		fs.readFile("./index.html", ((err, data) => {
-			res.writeHead(200, {'Content-type': 'text/html'});
-			console.log("THIS IS THE COOKIE");
-			console.log(parseCookies(req));
-			console.log("THIS IS THE COOKIE");
-			res.write(data);
-			res.write(genLargeNum());
-			res.write('<br/>');
-			res.write(RESULT);
-			res.write('<br/>');
-			res.write(parseCookies("topGuess").toString());
-			res.end();
-		}));
-
-	}else if(req.url == '/style.css'){
-		res.setHeader('Content-type', 'text/css');
-		res.write(fs.readFileSync('style.css'));
-		res.end();
 	}
 
 	if(req.method == "POST"){
@@ -131,15 +126,20 @@ const server = http.createServer((req, res) => {
 		});
 
 	}
-	
-
+	*/
 	
 
 });
 
-server.listen(port, hostname, () => {
+app.post('/post', function(req, res){
+	console.log(req.body);
+});
+
+
+app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
 });
+
 
 
 
