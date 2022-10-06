@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-#include <Streaming.h>
+
 
 int isObstaclePin = 2;
 int isObstaclePin2 = 3;
@@ -8,7 +8,11 @@ int left = HIGH;
 
 
 void setup() {
-  
+  //IR setup
+  Serial.println("IR SETUP");
+  pinMode(LED, OUTPUT);
+  pinMode(isObstaclePin, INPUT);
+  Serial.begin(9600);
     
 }
 
