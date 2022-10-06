@@ -9,10 +9,10 @@ int left = HIGH;
 
 void setup() {
   //IR setup
-  Serial.println("IR SETUP");
-  pinMode(LED, OUTPUT);
-  pinMode(isObstaclePin, INPUT);
   Serial.begin(9600);
+  Serial.println("IR SETUP");
+  pinMode(isObstaclePin, INPUT);
+  
     
 }
 
@@ -24,6 +24,7 @@ void loop() {
 
   if(right == LOW || left == LOW){
     //simulate mouse click
+    Serial.println("HOLA AMIGOS");
   }else if(right == HIGH && left == HIGH){
     //do nothing
   }
