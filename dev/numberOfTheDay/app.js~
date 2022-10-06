@@ -109,11 +109,12 @@ app.post('/', function(req, res){
 
 	if(numOfDay === answer){
 		RESULT = winner;
-	}else if(Math.abs(answer-numOfDay) <= Math.abs(parseCookies("topGuess")-numOfDay)){
+	}else if(Math.abs(answer-numOfDay) <= Math.abs(answer-numOfDay)){
 		console.log("closer...");
 		RESULT = closeThanTopAnswer;
 		res.cookie('topGuess', answer, {maxAge: 186400, httpOnly: true});
-	}else if(Math.abs(answer-numOfDay) > Math.abs(parseCookies("topGuess")-numOfDay)){
+	}else if(Math.abs(answer-numOfDay) > Math.abs(answer-numOfDay)){
+		console.log("farther...");
 		RESULT = worseThanTopAnswer;
 	}
 	
