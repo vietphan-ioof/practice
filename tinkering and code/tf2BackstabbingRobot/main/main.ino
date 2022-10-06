@@ -24,7 +24,6 @@ void loop() {
   right = digitalRead(isObstaclePin);
   left = digitalRead(isObstaclePin);
 
-
   if(right == LOW || left == LOW){
     //simulate mouse click
     Mouse.click();

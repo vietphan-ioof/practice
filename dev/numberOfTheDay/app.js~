@@ -93,27 +93,30 @@ app.get('/' , (req, res) => {
 	var answer = 0;
 
 	res.sendFile(path.join(__dirname, '/public/index.html'));
+	
 });
 
 app.post('/', function(req, res){
 	console.log(req.body['guess']);
 	var answer = req.body['guess'];
 	var cookie = req.cookies.cookieName;
-
-	if(cookie === undefined){
+	
+	if(req.cookies.cookieName === undefined){
 		//create cookie if the cookie is empty.
 		res.cookie('topGuess', answer, {maxAge: 186400, httpOnly: true});
 		console.log(req.cookies);
 		console.log('cookie created successfully');
 	}
 
+	console.log(req.cookies['topGuess']);
+
 	if(numOfDay === answer){
 		RESULT = winner;
-	}else if(Math.abs(answer-numOfDay) <= Math.abs(answer-numOfDay)){
+	}else if(Math.abs(answer-numOfDay) <= Math.abs(req.cookies['topGuess']-numOfDay)){
 		console.log("closer...");
 		RESULT = closeThanTopAnswer;
 		res.cookie('topGuess', answer, {maxAge: 186400, httpOnly: true});
-	}else if(Math.abs(answer-numOfDay) > Math.abs(answer-numOfDay)){
+	}else if(Math.abs(answer-numOfDay) > Math.abs(req.cookies['topGuess']-numOfDay)){
 		console.log("farther...");
 		RESULT = worseThanTopAnswer;
 	}
