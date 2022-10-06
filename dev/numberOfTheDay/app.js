@@ -42,6 +42,7 @@ const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
 
 var numOfDay = 0;
 var firstTime = true;
+var RESULT = " ";
 
 //storing topscore as a cookie 
 function parseCookies (request) {
@@ -88,62 +89,39 @@ function init(){
 //setInterval(function(){init()}, 10000);
 init();
 
-
 app.get('/' , (req, res) => {
-	
-	var RESULT = " ";
 	var answer = 0;
 
 	res.sendFile(path.join(__dirname, '/public/index.html'));
-
-
-	if(numOfDay.toString() === answer){
-		RESULT = winner;
-	}else if(Math.abs(answer-numOfDay.toString()) <= Math.abs(parseCookies("topGuess")-numOfDay.toString())){
-		RESULT = closeThanTopAnswer;
-		setCookie("topGuess", answer, res);
-	}else if(Math.abs(answer-numOfDay.toString()) > Math.abs(parseCookies("topGuess")-numOfDay.toString())){
-		RESULT = worseThanTopAnswer;
-	}
-
-	if(req.method == "POST"){
-		console.log("POST REQUEST POST REQUEST BABY");
-		var body = '';
-		
-		req.on('data', function(data){
-			body+=data;
-
-			if(body.length > 1e6)
-				req.connection.destroy();
-		});
-
-		req.on('end', function() {
-			var post = querystring.parse(body);
-			console.log(post['guess']);
-			answer = post['guess'];
-		});
-
-	}
-	
-
 });
 
 app.post('/', function(req, res){
 	console.log(req.body['guess']);
 	var answer = req.body['guess'];
-
 	var cookie = req.cookies.cookieName;
 
 	if(cookie === undefined){
-		res.cookie('topGuess', answer, {maxAge: 1000, httpOnly: true});
+		//create cookie if the cookie is empty.
+		res.cookie('topGuess', answer, {maxAge: 186400, httpOnly: true});
 		console.log(req.cookies);
 		console.log('cookie created successfully');
 	}
-	
 
+	if(numOfDay === answer){
+		RESULT = winner;
+	}else if(Math.abs(answer-numOfDay) <= Math.abs(parseCookies("topGuess")-numOfDay)){
+		console.log("closer...");
+		RESULT = closeThanTopAnswer;
+		res.cookie('topGuess', answer, {maxAge: 186400, httpOnly: true});
+	}else if(Math.abs(answer-numOfDay) > Math.abs(parseCookies("topGuess")-numOfDay)){
+		console.log("farther...");
+		RESULT = worseThanTopAnswer;
+	}
+	
+	console.log("result");
+	console.log(RESULT);
 	res.sendFile(path.join(__dirname, '/public/index.html'));
 });
-
 
 app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
