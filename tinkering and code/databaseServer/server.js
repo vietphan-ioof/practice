@@ -27,8 +27,6 @@ app.get('/set', (req, res) => {
 	console.log(JSON.parse(result));
 
 	res.send("variables set");
-
-
 });
 
 app.get('/get', (req, res) => {

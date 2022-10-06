@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-
+#include <Mouse.h>
 
 int isObstaclePin = 2;
 int isObstaclePin2 = 3;
@@ -12,6 +12,9 @@ void setup() {
   Serial.begin(9600);
   Serial.println("IR SETUP");
   pinMode(isObstaclePin, INPUT);
+
+  //mouse setup
+  Mouse.begin();
   
     
 }
@@ -24,9 +27,7 @@ void loop() {
 
   if(right == LOW || left == LOW){
     //simulate mouse click
+    Mouse.click();
     Serial.println("HOLA AMIGOS");
-  }else if(right == HIGH && left == HIGH){
-    //do nothing
   }
-
 }
