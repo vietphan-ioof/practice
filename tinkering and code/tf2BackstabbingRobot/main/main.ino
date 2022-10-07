@@ -11,7 +11,7 @@ int left = HIGH;
 void setup() {
 
   //mouse setup
-  Mouse.begin();
+  
   
   //IR setup
   Serial.begin(9600);
@@ -29,8 +29,7 @@ void loop() {
   left = digitalRead(isObstaclePin);
 
   if(right == LOW || left == LOW){
-    //simulate mouse click
-    Mouse.click();
+    //simulate mouse click through python script
     Serial.println("HOLA AMIGOS");
   }
 }
