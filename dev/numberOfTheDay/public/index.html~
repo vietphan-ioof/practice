@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http_equiv="X-UA-Compatible" content="ie=edge">
+		<title> gambling... but without the pain </title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body> 
+			<h1> Welcome to the premiere gambling platform fuckos</h1>
+			
+			Can You Guess The Number Of The Day?	
+
+			<form method="post" action="/">
+			<input type="text" name="guess" maxlength="100000000000"/>
+			<input type="submit" value="Submit Your Answer and Await your results"/>
+			<h3><%= RESULT %></h1>
+			</form>
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

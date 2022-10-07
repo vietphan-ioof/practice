@@ -1,5 +1,6 @@
-#include <SoftwareSerial.h>
 #include <Mouse.h>
+
+#include <SoftwareSerial.h>
 
 int isObstaclePin = 2;
 int isObstaclePin2 = 3;
@@ -8,13 +9,16 @@ int left = HIGH;
 
 
 void setup() {
+
+  //mouse setup
+  Mouse.begin();
+  
   //IR setup
   Serial.begin(9600);
   Serial.println("IR SETUP");
   pinMode(isObstaclePin, INPUT);
 
-  //mouse setup
-  Mouse.begin();
+  
   
     
 }
