@@ -33,6 +33,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.urlencoded({extended: true}));
 
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
+app.set('views', __dirname);
+
 const hostname = '127.0.0.1';
 const port = 3000;
 
@@ -90,10 +94,7 @@ function init(){
 init();
 
 app.get('/' , (req, res) => {
-	var answer = 0;
-
-	res.sendFile(path.join(__dirname, '/public/index.html'));
-	
+	res.render(path.join(__dirname, '/public/index.html'), {RESULT:"start now my friend"});
 });
 
 app.post('/', function(req, res){
@@ -120,10 +121,9 @@ app.post('/', function(req, res){
 		console.log("farther...");
 		RESULT = worseThanTopAnswer;
 	}
-	
-	console.log("result");
-	console.log(RESULT);
-	res.sendFile(path.join(__dirname, '/public/index.html'));
+
+//	res.sendFile(path.join(__dirname, '/public/index.html'), {RESULT:RESULT});
+	res.render(path.join(__dirname, '/public/index.html'), {RESULT:RESULT});
 });
 
 app.listen(port, () => {
