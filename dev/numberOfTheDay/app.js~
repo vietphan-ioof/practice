@@ -90,8 +90,9 @@ function init(){
 }
 
 //set this to update every 86400 seconds or 24 hours
-//setInterval(function(){init()}, 10000);
-init();
+
+init(); 
+setInterval(function(){init()}, 5000);
 
 app.get('/' , (req, res) => {
 	res.render(path.join(__dirname, '/public/index.html'), {RESULT:"start now my friend"});

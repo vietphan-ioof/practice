@@ -1,6 +1,10 @@
 from serial.tools import list_ports
 import serial
 import time
+from pyclick import HumanClicker
+
+#initialize the human clicker object
+hc = HumanClicker()
 
 ports = list_ports.comports()
 for port in ports: print(port)
@@ -16,6 +20,8 @@ serialCom.setDTR(True)
 while True:
     sBytes = serialCom.readline()
     decodedBytes = sBytes.decode("utf-8").strip('\r\n')
+    if decodedBytes == "HOLA AMIGOS":
+        hc.click()
     print(decodedBytes)
 
         
