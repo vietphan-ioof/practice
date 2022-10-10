@@ -84,7 +84,8 @@ function testNumberGenerator(){
 }
 
 function init(){
-	numOfDay = testNumberGenerator();
+	//numOfDay = testNumberGenerator();
+	numOfDay = genLargeNum();
 	topScore = true;
 	console.log("NUMER OF THE DAYYYYYYY" + " " + numOfDay);
 }

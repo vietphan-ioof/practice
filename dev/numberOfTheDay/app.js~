@@ -84,6 +84,7 @@ function testNumberGenerator(){
 }
 
 function init(){
+	//numOfDay = testNumberGenerator();
 	numOfDay = testNumberGenerator();
 	topScore = true;
 	console.log("NUMER OF THE DAYYYYYYY" + " " + numOfDay);
@@ -92,7 +93,7 @@ function init(){
 //set this to update every 86400 seconds or 24 hours
 
 init(); 
-setInterval(function(){init()}, 5000);
+setInterval(function(){init()}, 86400);
 
 app.get('/' , (req, res) => {
 	res.render(path.join(__dirname, '/public/index.html'), {RESULT:"start now my friend"});
