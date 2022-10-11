@@ -14,6 +14,9 @@
 // a self fullfilling leaderboard that shows at what time your best result was and if your headed in a better or worse direction 
 // compared to your top result.
 
+
+//TODO: finish up the front end and make it not look like dogshit
+
 const http = require('http');
 const express = require('express');
 const path = require("path");
