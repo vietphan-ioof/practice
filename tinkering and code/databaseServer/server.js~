@@ -15,7 +15,6 @@ var pair = [];
 app.get('/', (req, res) => {
 	res.write("hello world");
 	res.end();
-	
 });
 
 app.get('/set', (req, res) => {
