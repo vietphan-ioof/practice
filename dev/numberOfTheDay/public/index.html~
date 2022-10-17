@@ -15,24 +15,34 @@
 	</head>
 
 	<body> 
-			<!-- header -->
-			<header class="masathead text-center text-white">
-				<div class="container px-5">
-					<h1> Welcome to the premiere gambling platform fuckos</h1>
-					<h3> gambling... but without the pain</h3>
+			<!-- hero -->
+			<div class="p-5 text-center bg-image rounded-3" style="background-color: hsl(0, 0%, 94%);">
+				
+				<h1> Welcome to the premiere gambling platform fuckos</h1>
+				<h5> gambling... but without the pain</h5>
+					
+				Can You Guess The Number Of The Day?	
+
+			<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+				<div class="d-flex justify-content-center align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.6)">
+					<div class="text-white">
+					<form method="post" action="/">
+					<input type="text" name="guess" maxlength="100000000000"/>
+					<input type="submit" value="Submit Your Answer and Await your results"/>
+					<h3><%= RESULT %></h3>
+	    		  </div>
 				</div>
+			</form>
+
+				
+
+			</div>
 
 
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 			
-			Can You Guess The Number Of The Day?	
 
-			<form method="post" action="/">
-			<input type="text" name="guess" maxlength="100000000000"/>
-			<input type="submit" value="Submit Your Answer and Await your results"/>
-			<h3><%= RESULT %></h3>
-			</form>
 	</body>
 
 </html>
