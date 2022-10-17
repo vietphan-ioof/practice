@@ -8,11 +8,23 @@
 		<title> gambling... but without the pain </title>
 		<link rel="stylesheet" href="./style.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<!-- font import -->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i0i,700,700i,900,900i" rel="stylesheet" />
+						 
 	</head>
 
 	<body> 
-			<h1> Welcome to the premiere gambling platform fuckos</h1>
-			<h3> gambling... but without the pain</h3>
+			<!-- header -->
+			<header class="masathead text-center text-white">
+				<div class="container px-5">
+					<h1> Welcome to the premiere gambling platform fuckos</h1>
+					<h3> gambling... but without the pain</h3>
+				</div>
+
+
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 			
 			Can You Guess The Number Of The Day?	
 
