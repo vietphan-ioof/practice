@@ -8,6 +8,7 @@
 */
 
 const express = require('express');
+const fs = require('fs');
 const app = express();
 const port = 4000;
 var pair = [];
@@ -22,7 +23,9 @@ app.get('/set', (req, res) => {
     pair.push(req.query);
 
 	var result = JSON.stringify(pair);
-	var result2 = JSON.parse(result);
+
+	fs.writeFileSync('./log.txt', result, {encoding:'utf-8', flag:'w'});
+	console.log("json objects stored in file");
 
 	res.send("variables set");
 
@@ -30,8 +33,19 @@ app.get('/set', (req, res) => {
 
 app.get('/get', (req, res) => {
 	var key = req.query.key;
-	console.log(pair);
-	res.send("value:" + " " + pair[0][key]);
+
+	var data = fs.readFileSync('./log.txt', 'utf8');
+
+	var result2 = JSON.parse(data);
+	console.log("parsed result");
+	console.log(result2);
+//	res.send("value:" + " " + pair[0][key]);
+
+	for(let i=0; i<pair.length; i++){
+		if(pair[i].hasOwnProperty(key)){
+			res.send("value:" + " " + pair[i][key]);
+		}
+	}
 });
 
 app.listen(port, () => {
