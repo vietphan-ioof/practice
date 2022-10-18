@@ -22,12 +22,10 @@ app.get('/set', (req, res) => {
     pair.push(req.query);
 
 	var result = JSON.stringify(pair);
-	console.log(result);
-	console.log(JSON.parse(result));
 	var result2 = JSON.parse(result);
-	console.log("result2");
-	console.log(result2[0]["bruh"]);
+
 	res.send("variables set");
+
 });
 
 app.get('/get', (req, res) => {
