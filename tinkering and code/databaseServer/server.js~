@@ -27,7 +27,6 @@ app.get('/set', (req, res) => {
 	var result2 = JSON.parse(result);
 	console.log("result2");
 	console.log(result2[0]["bruh"]);
-
 	res.send("variables set");
 });
 

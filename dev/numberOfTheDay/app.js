@@ -14,9 +14,6 @@
 // a self fullfilling leaderboard that shows at what time your best result was and if your headed in a better or worse direction 
 // compared to your top result.
 
-
-//TODO: finish up the front end and make it not look like dogshit
-
 const http = require('http');
 const express = require('express');
 const path = require("path");
@@ -43,13 +40,14 @@ app.set('views', __dirname);
 const hostname = '127.0.0.1';
 const port = 3000;
 
+const start = "GUESS A NUMBER MY FRIEND";
 const winner = "YOU WON YOU CHEEKY BASTARD!";
 const closeThanTopAnswer = "YOU ARE GETTING CLOSER MY FRIEND";
 const worseThanTopAnswer = " YOU ARE GETTING FARTHER LOSER";
 
 var numOfDay = 0;
 var firstTime = true;
-var RESULT = " ";
+var RESULT = start;
 
 //storing topscore as a cookie 
 function parseCookies (request) {
@@ -99,7 +97,7 @@ init();
 setInterval(function(){init()}, 86400);
 
 app.get('/' , (req, res) => {
-	res.render(path.join(__dirname, '/public/index.html'), {RESULT:"start now my friend"});
+	res.render(path.join(__dirname, '/public/index.html'), {RESULT:RESULT});
 });
 
 app.post('/', function(req, res){

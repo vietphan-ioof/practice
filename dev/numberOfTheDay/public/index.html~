@@ -22,6 +22,7 @@
 				">
 				
 				<h1> Can You Guess The Number Of The Day? </h1>
+
 				<p> Welcome to the premiere gambling platform fuckos</p>
 					
 
@@ -31,7 +32,7 @@
 				<form method="post" action="/">
 				<input type="text" name="guess" maxlength="100000000000"/>
 				<input type="submit" class="btn btn-warning" value="Submit Your Answer and Await your results"/>
-				<h3><%= RESULT %></h3>
+				<h3><%= guess your number my friend%></h3>
 	    	    </form>
 			</div>
 		</div>
