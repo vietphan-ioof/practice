@@ -8,7 +8,7 @@ const port = 3000;
 
 app.use(express.static("public"));
 
-app.get('/', function(req, res)){
+app.get('/', function(req, res){
 	res.render(path.join(__dirname, '/public/index.html'));
 });
 
