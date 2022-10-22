@@ -1,13 +1,15 @@
 /*
-	p2p voice call application
+	p2p anonymous voice call application
 
 	approaches:
 		p2p:
 			- avast.com/c-p2p-vpn-server#
 		-- webRTC 
+			- https://www.tutorialspoint.com/webrtc/webrtc_architecture.htm
 		-- p2p-sip 
 		   - https://en.wikipedia.org/wiki/Peer-to-peer_SIP
 		   - https://github.com/theintencity/sip-js
+		   - https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC/Peer-to-peer_communications_with_WebRTC
 */
 
 
