@@ -1,5 +1,9 @@
 /*
 	TF2 Tracker
+	
+	https://www.npmjs.com/package/steamapi
+	https://wiki.teamfortress.com/wiki/WebAPI
+
 */
 
 const http = require('http');

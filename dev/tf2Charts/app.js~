@@ -1,5 +1,8 @@
 /*
 	TF2 Tracker
+	
+	https://www.npmjs.com/package/steamapi
+
 */
 
 const http = require('http');
