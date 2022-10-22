@@ -1,5 +1,5 @@
 /*
-	p2p anonymous voice call application
+	p2p anonymous voice call application game where you have to keep saying 
 
 	approaches:
 		p2p:
@@ -17,6 +17,11 @@
 const http = require('http');
 const express = require('express');
 const app = express();
+
+import * as Y from 'yjs';
+import {WebrtcProvider} from 'y-webrtc';
+
+const ydoc = new Y.Doc();
 
 const hostname = '127.0.0.1';
 const port = 3000;
