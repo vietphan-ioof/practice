@@ -11,6 +11,10 @@ const express = require('express');
 const steamAPI = require('steamapi');
 const path = require('path');
 
+//starting the steam api
+const SteamAPI = require('steamapi');
+const steam = new SteamAPI('steam token');
+
 const app = express();
 
 const hostname = '127.0.0.1';
