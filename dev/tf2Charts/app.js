@@ -9,6 +9,7 @@
 const http = require('http');
 const express = require('express');
 const steamAPI = require('steamapi');
+const path = require('path');
 
 const app = express();
 
