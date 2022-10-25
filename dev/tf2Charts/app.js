@@ -26,12 +26,12 @@ app.use(express.static("public"));
 steam.resolve('https://steamcommunity.com/id/DimGG').then(id => {
 	console.log("hi");
 	console.log(id);
-
+/*
 	steam.getUserSummary(id).then(summary => {
 		console.log(summary);
 	});
-
-	steam.getUserStats(id, 80924).then(stats => {
+*/
+	steam.getUserStats(id, 440).then(stats => {
 		console.log(stats);
 	});
 });
