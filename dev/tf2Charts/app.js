@@ -12,35 +12,40 @@ const express = require('express');
 const steamAPI = require('steamapi');
 const path = require('path');
 
+
 //starting the steam api
 const SteamAPI = require('steamapi');
 const steam = new SteamAPI('F191259D56059F8FEE6A458710180A24');
 
 const app = express();
 
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
+app.set('views', __dirname);
+
 const hostname = '127.0.0.1';
 const port = 3000;
 
-app.use(express.static("public"));
+//app.use(express.static("public"));
 
-steam.resolve('https://steamcommunity.com/id/DimGG').then(id => {
-	console.log("hi");
-	console.log(id);
-/*
-	steam.getUserSummary(id).then(summary => {
-		console.log(summary);
-	});
-*/
-	steam.getUserStats(id, 440).then(stats => {
-		console.log(stats);
-	});
-});
+let x = {};
 
 
 app.get('/', function(req, res){
+	console.log(x);
+	steam.resolve('https://steamcommunity.com/id/DimGG').then(id => {
+		console.log("hi");
+		console.log(id);
 
-	res.render(path.join(__dirname, '/public/index.html'));
-	
+		steam.getUserSummary(id).then(summary => {
+			console.log(summary);
+		});
+
+		steam.getUserStats(id, 440).then(stats => {
+		console.log(stats);
+		res.render(path.join(__dirname, './public/index.html'), {RESULT: stats});
+		});
+	});
 });
 
 app.listen(port, () => {
