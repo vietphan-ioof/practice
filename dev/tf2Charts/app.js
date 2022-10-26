@@ -30,22 +30,28 @@ const port = 3000;
 
 let x = {};
 
-
-app.get('/', function(req, res){
-	console.log(x);
+async function fetchUserData(req, res){
 	steam.resolve('https://steamcommunity.com/id/DimGG').then(id => {
 		console.log("hi");
 		console.log(id);
 
 		steam.getUserSummary(id).then(summary => {
-			console.log(summary);
+//			console.log(summary);
 		});
 
 		steam.getUserStats(id, 440).then(stats => {
-		console.log(stats);
-		res.render(path.join(__dirname, './public/index.html'), {RESULT: stats});
+			console.log("stats");
+			console.log(stats.stats.TF_SOLDIER_PARACHUTE_DISTANCE_STAT);
+			});
 		});
-	});
+}
+
+
+
+app.get('/', function(req, res){
+
+	fetchUserData(req, res);
+	res.render(path.join(__dirname, './public/index.html'), {RESULT:5});
 });
 
 app.listen(port, () => {
