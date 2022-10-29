@@ -63,7 +63,11 @@ app.get('/', function(req, res){
 
 	var fetchId = steam.resolve('https://steamcommunity.com/id/DimGG').then(function(id) {
 		result = steam.getUserStats(id, 440).then(stats => {
-			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats.TF_SOLDIER_PARACHUTE_DISTANCE_STAT});
+			let temp = stats.stats;
+			let keys = Object.keys(temp);
+			let result = stats.stats[keys[0]]
+			console.log(result);
+			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats[keys[-1]]});
 			});
 		});
 });
