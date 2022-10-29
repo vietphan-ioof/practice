@@ -61,11 +61,13 @@ async function fetchUserData(req, res){
 
 app.get('/', function(req, res){
 
+	let v = 0;
 	var fetchId = steam.resolve('https://steamcommunity.com/id/DimGG').then(function(id) {
-		result = steam.getUserStats(id, 440).then(stats => {
-			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats.TF_SOLDIER_PARACHUTE_DISTANCE_STAT});
-			});
-		});
+		res.render(path.join(__dirname, './public/index.html'), {RESULT:id});
+		v = id;
+	});
+	console.log(v);
+	//res.render(path.join(__dirname, './public/index.html'), {RESULT:fetchId});
 });
 
 app.listen(port, () => {
