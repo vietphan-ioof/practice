@@ -8,6 +8,8 @@ hc = HumanClicker()
 
 ports = list_ports.comports()
 for port in ports: print(port)
+print('port')
+print(port)
 
 #open the serial communication to microcontroller 
 serialCom = serial.Serial('COM10', 9600)

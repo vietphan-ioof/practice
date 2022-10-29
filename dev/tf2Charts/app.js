@@ -30,7 +30,19 @@ const port = 3000;
 
 let x = {};
 
+//override console.log behavior
+/*
+console.LOG = console.log;
+
+console.log = function(value){
+	console.LOG(value);
+	window.$log = value;
+}
+*/
+let v = 0;
+
 async function fetchUserData(req, res){
+	var result = {};
 	steam.resolve('https://steamcommunity.com/id/DimGG').then(id => {
 		console.log("hi");
 		console.log(id);
@@ -38,20 +50,23 @@ async function fetchUserData(req, res){
 		steam.getUserSummary(id).then(summary => {
 //			console.log(summary);
 		});
-
-		steam.getUserStats(id, 440).then(stats => {
-			console.log("stats");
-			console.log(stats.stats.TF_SOLDIER_PARACHUTE_DISTANCE_STAT);
+		result = steam.getUserStats(id, 440).then(stats => {
+			return stats;		
+			//console.log(stats);
+//			console.log(stats.stats.TF_SOLDIER_PARACHUTE_DISTANCE_STAT);
+//			res.render(path.join(__dirname, './public/index.html'), {RESULT: stats});
 			});
 		});
 }
 
-
-
 app.get('/', function(req, res){
 
-	fetchUserData(req, res);
-	res.render(path.join(__dirname, './public/index.html'), {RESULT:5});
+	var fetchId = steam.resolve('https://steamcommunity.com/id/DimGG').then(function(id) {
+		res.render(path.join(__dirname, './public/index.html'), {RESULT:id});
+	});
+
+	console.log(fetchId);
+	//res.render(path.join(__dirname, './public/index.html'), {RESULT:fetchId});
 });
 
 app.listen(port, () => {
