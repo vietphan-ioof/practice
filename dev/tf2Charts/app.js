@@ -26,39 +26,28 @@ const port = 3000;
 
 //app.use(express.static("public"));
 
-let x = {};
-
-let v = 0;
-
-async function fetchUserData(req, res){
-	var result = {};
-	steam.resolve('https://steamcommunity.com/id/DimGG').then(id => {
-		console.log("hi");
-		console.log(id);
-
-		steam.getUserSummary(id).then(summary => {
-//			console.log(summary);
-		});
-		result = steam.getUserStats(id, 440).then(stats => {
-			return stats;		
-			//console.log(stats);
-//			console.log(stats.stats.TF_SOLDIER_PARACHUTE_DISTANCE_STAT);
-//			res.render(path.join(__dirname, './public/index.html'), {RESULT: stats});
-			});
-		});
-}
-
 /*
 	set custom steam url
 	set acheivemnts to public
 		 - send exception if not satisfied
 */
 
+//rendering multiple items.
+//https://stackoverflow.com/questions/15968776/send-multiple-variables-through-render-with-express
+
+let USERNAME ='';
+let url = 'https://steamcommunity.com/profiles/';
+
 app.get('/', function(req, res){
+	let BRUH = 0;
 	let string = 'https://steamcommunity.com/profiles/76561198253369292';
 	let string2 = 'https://steamcommunity.com/id/Dragonsofdra';
 	let string3 = 'https://steamcommunity.com/id/DimGG';
 	let string4 = 'https://steamcommunity.com/id/zkae';
+
+	//ask for user input for steam id
+	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
+	/*
 
 	var fetchId = steam.resolve(string2).then(function(id) {
 		console.log(id);
@@ -69,8 +58,16 @@ app.get('/', function(req, res){
 			let result = stats.stats[keys[0]]
 			console.log(result);
 			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats[keys[0]]});
+			bruh = stats.stats[keys[0]];
+			});
+
+			result2 = steam.getUserAchievements(id, 440).then(a => {
+				console.log(a);
 			});
 		});
+		*/
+
+
 });
 
 app.listen(port, () => {

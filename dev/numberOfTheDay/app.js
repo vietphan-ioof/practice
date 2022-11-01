@@ -4,16 +4,6 @@
  * such as a resource becoming available or the completion of an I/O operation.[1]
 */
 
-/*
- * guess a number.
- * It tells how close your are compared to your peers in ranking
- * at the end of the day it shows the previous number and stores it in the database
- * it also stores the high scores for one day.
-*/
-
-// a self fullfilling leaderboard that shows at what time your best result was and if your headed in a better or worse direction 
-// compared to your top result.
-
 const http = require('http');
 const express = require('express');
 const path = require("path");
