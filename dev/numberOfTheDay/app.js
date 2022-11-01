@@ -87,7 +87,7 @@ init();
 setInterval(function(){init()}, 86400);
 
 app.get('/' , (req, res) => {
-	res.render(path.join(__dirname, '/public/index.html'), {RESULT:RESULT});
+	res.render(path.join(__dirname, '/public/index.html'), {RESULT:""});
 });
 
 app.post('/', function(req, res){

@@ -10,12 +10,18 @@ const http = require('http');
 const express = require('express');
 const steamAPI = require('steamapi');
 const path = require('path');
+const bodyParser = require('body-parser');
 
 //starting the steam api
 const SteamAPI = require('steamapi');
 const steam = new SteamAPI('F191259D56059F8FEE6A458710180A24');
 
 const app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({extended: true}));
+
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
@@ -47,7 +53,6 @@ app.get('/', function(req, res){
 
 	//ask for user input for steam id
 	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
-	res.redirect('/classSelect');
 	/*
 
 	var fetchId = steam.resolve(string2).then(function(id) {
@@ -70,10 +75,9 @@ app.get('/', function(req, res){
 });
 
 app.post('/', function(req, res){
-	console.log(req.body['username']);
-
+	console.log(req.body['guess']);
+	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+"ASSHOLE"});
 });
-
 
 app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
