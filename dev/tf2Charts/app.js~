@@ -80,9 +80,9 @@ app.post('/', function(req, res){
 	res.redirect('/statChooser');
 });
 
-app.get('/statChooser', function(req, res)){
+app.get('/statChooser', function(req, res){
 	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
-}
+});
 
 app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
