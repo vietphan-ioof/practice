@@ -76,7 +76,7 @@ app.get('/', function(req, res){
 
 app.post('/', function(req, res){
 	console.log(req.body['guess']);
-	USERNAME = "BOO BOO";
+	USERNAME = req.body['guess'];
 	res.redirect('/statChooser');
 });
 

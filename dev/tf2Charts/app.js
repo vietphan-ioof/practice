@@ -82,6 +82,7 @@ app.post('/', function(req, res){
 
 app.get('/statChooser', function(req, res){
 	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
+	//choose the class or what stats you want to see here and then redirect to the class page where it gets the stats 
 });
 
 app.listen(port, () => {
