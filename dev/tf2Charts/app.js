@@ -39,7 +39,7 @@ let USERNAME ='';
 let url = 'https://steamcommunity.com/profiles/';
 
 app.get('/', function(req, res){
-	let BRUH = 0;
+	USERNAME = "dragonsofdra";
 	let string = 'https://steamcommunity.com/profiles/76561198253369292';
 	let string2 = 'https://steamcommunity.com/id/Dragonsofdra';
 	let string3 = 'https://steamcommunity.com/id/DimGG';
@@ -47,6 +47,7 @@ app.get('/', function(req, res){
 
 	//ask for user input for steam id
 	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
+	res.redirect('/classSelect');
 	/*
 
 	var fetchId = steam.resolve(string2).then(function(id) {
@@ -66,7 +67,10 @@ app.get('/', function(req, res){
 			});
 		});
 		*/
+});
 
+app.post('/', function(req, res){
+	console.log(req.body['username']);
 
 });
 
