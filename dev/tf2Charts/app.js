@@ -76,7 +76,12 @@ app.get('/', function(req, res){
 
 app.post('/', function(req, res){
 	console.log(req.body['guess']);
-	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+"ASSHOLE"});
+	USERNAME = "BOO BOO";
+	res.redirect('/statChooser');
+});
+
+app.get('/statChooser', function(req, res){
+	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
 });
 
 app.listen(port, () => {
