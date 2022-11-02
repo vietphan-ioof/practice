@@ -18,10 +18,16 @@
 		<h1> Class Select </h1> 
 		
 		<form method="post" action="/classChooser">
-				<input type="submit" name="scout" class="btn btn-warning" value="Scout"/>
+				<!-- reorder these to fit the ingame class picking gui -->
+				<input type="submit" name="scout"class="btn btn-warning" value="Scout"/>
 				<input type="submit" name="demoman" class="btn btn-warning" value="Demoman"/>
-				<input type="submit" class="btn btn-warning" value="Soldier"/>
-				<input type="submit" class="btn btn-warning" value="Heavy"/>
+				<input type="submit" name="soldier" class="btn btn-warning" value="Soldier"/>
+				<input type="submit" name="heavy" class="btn btn-warning" value="Heavy"/>
+				<input type="submit" name="medic" class="btn btn-warning" value="Medic"/>
+				<input type="submit" name="pyro" class="btn btn-warning" value="Pyro"/>
+				<input type="submit" name="spy" class="btn btn-warning" value="Spy"/>
+				<input type="submit" name="sniper" class="btn btn-warning" value="Sniper"/>
+				<input type="submit" name="engineer" class="btn btn-warning" value="Engineer"/>
 				<h3><%= RESULT %></h3>
 	    </form>
 
