@@ -90,6 +90,20 @@ app.get('/classChooser', function(req, res){
 	//choose the class or what stats you want to see here and then redirect to the class page where it gets the stats 
 });
 
+app.post('/classChooser', function(req, res){
+	console.log(req.body['scout']);
+
+	if(req.body['scout'] == "Scout"){
+		res.redirect('/scoutStats');
+	}
+	
+});
+
+app.get('/scoutStats', function(req, res){
+	console.log("HI!");
+	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "COCKSUCKER"});
+});
+
 app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
 });

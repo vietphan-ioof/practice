@@ -16,7 +16,14 @@
 	<body> 
 
 		<h1> Class Select </h1> 
-
+		
+		<form method="post" action="/classChooser">
+				<input type="submit" name="scout" class="btn btn-warning" value="Scout"/>
+				<input type="submit" name="demoman" class="btn btn-warning" value="Demoman"/>
+				<input type="submit" class="btn btn-warning" value="Soldier"/>
+				<input type="submit" class="btn btn-warning" value="Heavy"/>
+				<h3><%= RESULT %></h3>
+	    </form>
 
 	</body>
 </html>
