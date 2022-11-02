@@ -47,7 +47,7 @@ const port = 3000;
 //https://stackoverflow.com/questions/15968776/send-multiple-variables-through-render-with-express
 
 let USERNAME ='';
-let url = 'https://steamcommunity.com/profiles/';
+let url = 'https://steamcommunity.com/id/';
 
 app.get('/', function(req, res){
 	USERNAME = "dragonsofdra";

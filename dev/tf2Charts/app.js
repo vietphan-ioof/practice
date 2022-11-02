@@ -125,7 +125,7 @@ app.get('/scoutStats', function(req, res){
 				console.log(a);
 			});
 		});
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "Scout"});
+//	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "Scout"});
 });
 
 app.get('/heavyStats', function(req, res){
