@@ -47,7 +47,7 @@ const port = 3000;
 //https://stackoverflow.com/questions/15968776/send-multiple-variables-through-render-with-express
 
 let USERNAME ='';
-let url = 'https://steamcommunity.com/profiles/';
+let url = 'https://steamcommunity.com/id/';
 
 app.get('/', function(req, res){
 	USERNAME = "dragonsofdra";
@@ -109,7 +109,22 @@ app.post('/classChooser', function(req, res){
 
 app.get('/scoutStats', function(req, res){
 
+	var fetchId = steam.resolve(url+USERNAME).then(function(id) {
+		console.log(id);
+		result = steam.getUserStats(id, 440).then(stats => {
+		console.log(stats);
+			let temp = stats.stats;
+			let keys = Object.keys(temp);
+			let result = stats.stats[keys[0]]
+			console.log(result);
+			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats[keys[0]]});
+			bruh = stats.stats[keys[0]];
+			});
 
+			result2 = steam.getUserAchievements(id, 440).then(a => {
+				console.log(a);
+			});
+		});
 	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "Scout"});
 });
 
