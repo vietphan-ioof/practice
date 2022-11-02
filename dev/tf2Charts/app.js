@@ -6,8 +6,6 @@
 	https://www.npmjs.com/package/steamapi
 	https://wiki.teamfortress.com/wiki/WebAPI
 	F191259D56059F8FEE6A458710180A24
-
-
 */
 
 
@@ -21,12 +19,13 @@ const bodyParser = require('body-parser');
 const SteamAPI = require('steamapi');
 const steam = new SteamAPI('F191259D56059F8FEE6A458710180A24');
 
+//starting express
 const app = express();
 
+//initialization
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.urlencoded({extended: true}));
-
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
@@ -56,7 +55,6 @@ app.get('/', function(req, res){
 	let string3 = 'https://steamcommunity.com/id/DimGG';
 	let string4 = 'https://steamcommunity.com/id/zkae';
 
-	//ask for user input for steam id
 	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
 	/*
 
@@ -104,11 +102,10 @@ app.post('/classChooser', function(req, res){
 	}else if(req.body['medic'] == "Medic"){
 		res.redirect('/medicStats');
 	}
-	
 });
 
 app.get('/scoutStats', function(req, res){
-
+//parse the stats only for the scout
 	var fetchId = steam.resolve(url+USERNAME).then(function(id) {
 		console.log(id);
 		result = steam.getUserStats(id, 440).then(stats => {
@@ -125,7 +122,6 @@ app.get('/scoutStats', function(req, res){
 				console.log(a);
 			});
 		});
-//	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "Scout"});
 });
 
 app.get('/heavyStats', function(req, res){
