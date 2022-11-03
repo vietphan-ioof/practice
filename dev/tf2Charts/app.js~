@@ -90,23 +90,24 @@ app.get('/classChooser', function(req, res){
 app.post('/classChooser', function(req, res){
 	if(req.body['scout'] == "Scout"){
 		CLASS = "scout";
-		res.redirect('/scoutStats');
-	}else if(req.body['scout'] == "Demoman"){
-		res.redirect('/demomanStats');
+	}else if(req.body['demoman'] == "Demoman"){
+		CLASS = "demoman";
 	}else if(req.body['heavy'] == "Heavy"){
-		res.redirect('/heavyStats');
+		CLASS = "heavy";
 	}else if(req.body['spy'] == "Spy"){
-		res.redirect('/spyStats');
+		CLASS = "spy";
 	}else if(req.body['soldier'] == "Soldier"){
-		res.redirect('/soldierStats');
+		CLASS = "soldier";
 	}else if(req.body['medic'] == "Medic"){
-		res.redirect('/medicStats');
-	}else if(req.body['achievements']){
-		res.redirect('/ach');
+		CLASS = "medic";
+	}else if(req.body['ach'] == "Achievments" ){
+		console.log("IT WOKRED!");
+		return res.redirect('/ach');
 	}
+	return res.redirect('/fetchStats');
 });
 
-app.get('/scoutStats', function(req, res){
+app.get('/fetchStats', function(req, res){
 	var fetchId = steam.resolve(url+USERNAME).then(function(id) {
 		console.log(id);
 		result = steam.getUserStats(id, 440).then(stats => {
@@ -136,6 +137,10 @@ app.get('/scoutStats', function(req, res){
 		});
 });
 
+app.get('/ach', function(req, res){
+	res.render(path.join(__dirname, './public/index.html'), {RESULT:"ACHIEVEMENTS PAGE"});
+	console.log("ACH PAGE!");
+});
 
 app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
