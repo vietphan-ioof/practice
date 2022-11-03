@@ -46,6 +46,7 @@ const port = 3000;
 
 let USERNAME ='';
 let url = 'https://steamcommunity.com/id/';
+let CLASS = "";
 
 app.get('/', function(req, res){
 	USERNAME = "dragonsofdra";
@@ -84,11 +85,11 @@ app.post('/', function(req, res){
 
 app.get('/classChooser', function(req, res){
 	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: url+USERNAME});
-	//choose the class or what stats you want to see here and then redirect to the class page where it gets the stats 
 });
 
 app.post('/classChooser', function(req, res){
 	if(req.body['scout'] == "Scout"){
+		CLASS = "scout";
 		res.redirect('/scoutStats');
 	}else if(req.body['scout'] == "Demoman"){
 		res.redirect('/demomanStats');
@@ -100,16 +101,17 @@ app.post('/classChooser', function(req, res){
 		res.redirect('/soldierStats');
 	}else if(req.body['medic'] == "Medic"){
 		res.redirect('/medicStats');
+	}else if(req.body['achievements']){
+		res.redirect('/ach');
 	}
 });
 
 app.get('/scoutStats', function(req, res){
-//parse the stats only for the scout
 	var fetchId = steam.resolve(url+USERNAME).then(function(id) {
 		console.log(id);
 		result = steam.getUserStats(id, 440).then(stats => {
 		console.log(stats);
-			let scoutStats = [];
+			let classStats = [];
 			let temp = stats.stats;
 			let keys = Object.keys(temp);
 			let result = stats.stats[keys[0]]
@@ -120,11 +122,11 @@ app.get('/scoutStats', function(req, res){
 
 			console.log("+++++++++++++++++++++++++++++++++++++");
 			for(let x in stats.stats){
-				if(x.toLowerCase().includes("scout")){
-					scoutStats.push(stats.stats[keys[x]]);
+				if(x.toLowerCase().includes(CLASS)){
+					classStats.push(stats.stats[x]);
 				}
 			}
-			console.log(scoutStats);
+			console.log(classStats);
 			console.log("+++++++++++++++++++++++++++++++++++++");
 			});
 
@@ -134,37 +136,6 @@ app.get('/scoutStats', function(req, res){
 		});
 });
 
-app.get('/heavyStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "Heavy"});
-});
-
-app.get('/soldierStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "soldier"});
-});
-
-app.get('/medicStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "medic"});
-});
-
-app.get('/spyStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "spy"});
-});
-
-app.get('/demomanStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "demoman"});
-});
-
-app.get('/pyroStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "pyro"});
-});
-
-app.get('/engineerStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "engineer"});
-});
-
-app.get('/sniperStats', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "sniper"});
-});
 
 app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
