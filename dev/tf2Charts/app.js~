@@ -117,7 +117,6 @@ app.get('/fetchStats', function(req, res){
 			let keys = Object.keys(temp);
 			let result = stats.stats[keys[0]]
 //			console.log(result);
-			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats[keys[0]]});
 			bruh = stats.stats[keys[0]];
 		
 
@@ -128,11 +127,8 @@ app.get('/fetchStats', function(req, res){
 				}
 			}
 			console.log(classStats);
+			res.render(path.join(__dirname, './public/index.html'), {RESULT:classStats);
 			console.log("+++++++++++++++++++++++++++++++++++++");
-			});
-
-			result2 = steam.getUserAchievements(id, 440).then(a => {
-//				console.log(a);
 			});
 		});
 });
@@ -146,7 +142,7 @@ app.get('/ach', function(req, res){
 				let achStats = [];
 				console.log("+++++++++++++++++++++++++++++++++++++");
 				for(let x in a.achievements){
-					achStats.push(a.achievements[x]);
+					achStats.push(a.achievements[x].api);
 				}
 				console.log(achStats);
 				console.log("+++++++++++++++++++++++++++++++++++++");
