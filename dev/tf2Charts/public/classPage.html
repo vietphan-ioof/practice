@@ -13,17 +13,14 @@
 	</head>
 	<body>
 		<h1> Class Stats</h1> 
-		<h3> <%= RESULT %></h3>
 		<form method="post" action="/">
-			<input type="text" name="guess" maxlength="100000000000"/>
-			<input type="submit" class="btn btn-warning" value="Type In Your Custom URL Username"/>
 			<div class="results">
-				{{#each RESULT}}
-					<p>{{this}}</p>
-				{{/each}}
+				<ul>
+				<% for (var i = 0; i<names.length ; i++) { %>
+						<li> <%= names[i] %> : <%= stats[i] %> </li>
+					<% } %>
+				</ul>
 			</div>
-
-			<h3><%= RESULT %></h3>
 		</form>
 	</body>
 </html>

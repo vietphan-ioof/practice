@@ -113,6 +113,7 @@ app.get('/fetchStats', function(req, res){
 		result = steam.getUserStats(id, 440).then(stats => {
 		console.log(stats);
 			let classStats = [];
+			let statNames = [];
 			let temp = stats.stats;
 			let keys = Object.keys(temp);
 			let result = stats.stats[keys[0]]
@@ -124,10 +125,11 @@ app.get('/fetchStats', function(req, res){
 			for(let x in stats.stats){
 				if(x.toLowerCase().includes(CLASS)){
 					classStats.push(stats.stats[x]);
+					statNames.push(x);
 				}
 			}
 			console.log(classStats);
-			res.render(path.join(__dirname, './public/index.html'), {RESULT:classStats});
+			res.render(path.join(__dirname, './public/classPage.html'), {stats :classStats, names : statNames});
 			console.log("+++++++++++++++++++++++++++++++++++++");
 			});
 		});
