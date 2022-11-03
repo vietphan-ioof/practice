@@ -104,7 +104,7 @@ app.post('/classChooser', function(req, res){
 		console.log("IT WOKRED!");
 		return res.redirect('/ach');
 	}
-	return res.redirect('/fetchStats');
+	res.redirect('/fetchStats');
 });
 
 app.get('/fetchStats', function(req, res){
@@ -138,8 +138,20 @@ app.get('/fetchStats', function(req, res){
 });
 
 app.get('/ach', function(req, res){
-	res.render(path.join(__dirname, './public/index.html'), {RESULT:"ACHIEVEMENTS PAGE"});
-	console.log("ACH PAGE!");
+	var fetchId = steam.resolve(url+USERNAME).then(function(id) {
+		console.log(id);
+		result = steam.getUserAchievements(id, 440).then(a => {
+				console.log(a);
+
+				let achStats = [];
+				console.log("+++++++++++++++++++++++++++++++++++++");
+				for(let x in a.achievements){
+					achStats.push(a.achievements[x]);
+				}
+				console.log(achStats);
+				console.log("+++++++++++++++++++++++++++++++++++++");
+			});
+		});
 });
 
 app.listen(port, () => {
