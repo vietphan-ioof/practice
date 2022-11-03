@@ -8,7 +8,6 @@
 	F191259D56059F8FEE6A458710180A24
 */
 
-
 const http = require('http');
 const express = require('express');
 const steamAPI = require('steamapi');
@@ -110,16 +109,27 @@ app.get('/scoutStats', function(req, res){
 		console.log(id);
 		result = steam.getUserStats(id, 440).then(stats => {
 		console.log(stats);
+			let scoutStats = [];
 			let temp = stats.stats;
 			let keys = Object.keys(temp);
 			let result = stats.stats[keys[0]]
-			console.log(result);
+//			console.log(result);
 			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats[keys[0]]});
 			bruh = stats.stats[keys[0]];
+		
+
+			console.log("+++++++++++++++++++++++++++++++++++++");
+			for(let x in stats.stats){
+				if(x.toLowerCase().includes("scout")){
+					scoutStats.push(stats.stats[x]);
+				}
+			}
+			console.log(scoutStats);
+			console.log("+++++++++++++++++++++++++++++++++++++");
 			});
 
 			result2 = steam.getUserAchievements(id, 440).then(a => {
-				console.log(a);
+//				console.log(a);
 			});
 		});
 });
@@ -155,7 +165,6 @@ app.get('/engineerStats', function(req, res){
 app.get('/sniperStats', function(req, res){
 	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: "sniper"});
 });
-
 
 app.listen(port, () => {
 	console.log(`Server running at http://${hostname}:${port}/`);
