@@ -148,9 +148,13 @@ app.get('/ach', function(req, res){
 					achStats.push(a.achievements[x]);
 					names.push(a.achievements[x].name);
 					descriptions.push(a.achievements[x].description);
-					names.push(a.achievements[x].achieved);
+					if(a.achievements[x].achieved === true){
+						achieved.push("achieved.");
+					}else if(a.achievements[x].achieved === false){
+						achieved.push("not achieved yet.");
+					}
 				}
-				console.log(descriptions);
+				console.log(achStats);
 				res.render(path.join(__dirname, './public/achievementsPage.html'), {name : names, description : descriptions, achieve : achieved});
 				console.log("+++++++++++++++++++++++++++++++++++++");
 			});

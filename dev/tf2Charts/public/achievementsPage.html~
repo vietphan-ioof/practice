@@ -13,15 +13,16 @@
 	</head>
 	<body>
 		<h1> Achievements Page </h1> 
-		<form method="post" action="/">
 			<div class="results">
-				<ul>
 				<% for (var i = 0; i<name.length; i++) { %>
-					<li> <%= name[i] %> <ul> <%= description[i] %> </ul> : <%= achieve[i] %> </li>
+					<%= name[i] %> 
+					<ul>
+					<li> <%= description[i] %> </li>
+					<li> <%= achieve.length %> </li>
+					<li> <%= name.length %> </li>
+					</ul>
 				<% } %>
-				</ul>
 			</div>
-		</form>
 	</body>
 </html>
 
