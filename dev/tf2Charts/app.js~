@@ -41,9 +41,6 @@ const port = 3000;
 		 - send exception if not satisfied
 */
 
-//rendering multiple items.
-//https://stackoverflow.com/questions/15968776/send-multiple-variables-through-render-with-express
-
 let USERNAME ='';
 let url = 'https://steamcommunity.com/id/';
 let CLASS = "";
@@ -129,24 +126,32 @@ app.get('/fetchStats', function(req, res){
 				}
 			}
 			console.log(classStats);
-			res.render(path.join(__dirname, './public/classPage.html'), {`list`, {stats :classStats, names : statNames}});
+			res.render(path.join(__dirname, './public/classPage.html'), {stats :classStats, names : statNames});
 			console.log("+++++++++++++++++++++++++++++++++++++");
 			});
 		});
 });
 
 app.get('/ach', function(req, res){
+	//parse achievements and render every eachivements and if it was completed or not
 	var fetchId = steam.resolve(url+USERNAME).then(function(id) {
 		console.log(id);
+		let names = [];
+		let descriptions = [];
+		let achieved = [];
+
 		result = steam.getUserAchievements(id, 440).then(a => {
 				console.log(a);
-
 				let achStats = [];
 				console.log("+++++++++++++++++++++++++++++++++++++");
 				for(let x in a.achievements){
-					achStats.push(a.achievements[x].api);
+					achStats.push(a.achievements[x]);
+					names.push(a.achievements[x].name);
+					descriptions.push(a.achievements[x].description);
+					names.push(a.achievements[x].achieved);
 				}
 				console.log(achStats);
+				res.render(path.join(__dirname, './public/achievementsPage.html'), {name : names, description : descriptions, achieve : achieved});
 				console.log("+++++++++++++++++++++++++++++++++++++");
 			});
 		});
