@@ -1,6 +1,5 @@
 
 <style>
-body {
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
@@ -11510,5 +11509,4 @@ html {
 .copyright {
   background-color: #1a252f;
 }
-	}
 </style>
