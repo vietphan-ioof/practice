@@ -6,6 +6,9 @@
 	https://www.npmjs.com/package/steamapi
 	https://wiki.teamfortress.com/wiki/WebAPI
 	F191259D56059F8FEE6A458710180A24
+
+
+	make the UI not shit
 */
 
 const http = require('http');
@@ -13,6 +16,7 @@ const express = require('express');
 const steamAPI = require('steamapi');
 const path = require('path');
 const bodyParser = require('body-parser');
+const fs = require('fs');
 
 //starting the steam api
 const SteamAPI = require('steamapi');
@@ -33,8 +37,6 @@ app.set('views', __dirname);
 const hostname = '127.0.0.1';
 const port = 3000;
 
-//app.use(express.static("public"));
-
 /*
 	set custom steam url
 	set acheivemnts to public
@@ -45,6 +47,9 @@ let USERNAME ='';
 let url = 'https://steamcommunity.com/id/';
 let CLASS = "";
 
+
+
+
 app.get('/', function(req, res){
 	USERNAME = "dragonsofdra";
 	let string = 'https://steamcommunity.com/profiles/76561198253369292';
@@ -52,7 +57,13 @@ app.get('/', function(req, res){
 	let string3 = 'https://steamcommunity.com/id/DimGG';
 	let string4 = 'https://steamcommunity.com/id/zkae';
 
-	res.render(path.join(__dirname, './public/index.html'), {RESULT: url+USERNAME});
+	var homePageCSS = {
+		style : fs.readFileSync('./public/css/homePageStyles.css', 'utf8')
+	};
+
+	res.render(path.join(__dirname, './public/homePage.html'), {RESULT: url+USERNAME, title: 'homePage', myCSS: homePageCSS});
+
+
 	/*
 
 	var fetchId = steam.resolve(string2).then(function(id) {

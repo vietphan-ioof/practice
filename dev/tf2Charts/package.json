@@ -13,6 +13,7 @@
     "bootstrap": "^5.2.2",
     "console-log-html": "^2.0.2",
     "ejs": "^3.1.8",
+    "fs": "^0.0.1-security",
     "steamapi": "^2.2.0"
   }
 }
