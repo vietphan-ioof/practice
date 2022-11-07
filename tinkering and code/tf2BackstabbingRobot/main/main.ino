@@ -4,8 +4,8 @@
 
 int isObstaclePin = 2;
 int isObstaclePin2 = 3;
-int right = HIGH; //HIGH MEANS NO OBSTACLE
-int left = HIGH;
+int right = LOW; //HIGH MEANS NO OBSTACLE
+int left = LOW;
 
 
 void setup() {

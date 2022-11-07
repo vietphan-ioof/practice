@@ -58,7 +58,8 @@ app.get('/', function(req, res){
 	let string4 = 'https://steamcommunity.com/id/zkae';
 
 	var homePageCSS = {
-		style : fs.readFileSync('./public/css/homePageStyles.css', 'utf8')
+		style : fs.readFileSync('./public/css/homePageStyles.css', 'utf8'),
+		images: fs.readFileSync('./public/css/tfbg.jpg', 'utf8')
 	};
 
 	res.render(path.join(__dirname, './public/homePage.html'), {RESULT: url+USERNAME, title: 'homePage', myCSS: homePageCSS});
