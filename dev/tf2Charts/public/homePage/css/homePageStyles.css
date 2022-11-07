@@ -11286,7 +11286,6 @@ html {
 
 .page-section {
   padding: 6rem 0;
-  background-color: ##0000ffcc;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11426,8 +11425,7 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  background-image: url(/css/tfbg.jpg);
-  background-color: ##0000ffcc;
+  background-color: #red;
 }
 
 .masthead .masthead-heading {

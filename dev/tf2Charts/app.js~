@@ -35,7 +35,7 @@ app.set('view engine', 'html');
 app.set('views', __dirname);
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 8080;
 
 /*
 	set custom steam url
@@ -47,9 +47,6 @@ let USERNAME ='';
 let url = 'https://steamcommunity.com/id/';
 let CLASS = "";
 
-
-
-
 app.get('/', function(req, res){
 	USERNAME = "dragonsofdra";
 	let string = 'https://steamcommunity.com/profiles/76561198253369292';
@@ -58,32 +55,10 @@ app.get('/', function(req, res){
 	let string4 = 'https://steamcommunity.com/id/zkae';
 
 	var homePageCSS = {
-		style : fs.readFileSync('./public/css/homePageStyles.css', 'utf8'),
-		images: fs.readFileSync('./public/css/img/tfbg.jpg', 'utf8')
+		style : fs.readFileSync('./public/homePage/css/homePageStyles.css', 'utf8'),
 	};
 
-	res.render(path.join(__dirname, './public/homePage.html'), {RESULT: url+USERNAME, title: 'homePage', myCSS: homePageCSS});
-
-
-	/*
-
-	var fetchId = steam.resolve(string2).then(function(id) {
-		console.log(id);
-		result = steam.getUserStats(id, 440).then(stats => {
-		console.log(stats);
-			let temp = stats.stats;
-			let keys = Object.keys(temp);
-			let result = stats.stats[keys[0]]
-			console.log(result);
-			res.render(path.join(__dirname, './public/index.html'), {RESULT:stats.stats[keys[0]]});
-			bruh = stats.stats[keys[0]];
-			});
-
-			result2 = steam.getUserAchievements(id, 440).then(a => {
-				console.log(a);
-			});
-		});
-		*/
+	res.render(path.join(__dirname, './public/homePage/homePage.html'), {RESULT: url+USERNAME, title: 'homePage', myCSS: homePageCSS});
 });
 
 app.post('/', function(req, res){
