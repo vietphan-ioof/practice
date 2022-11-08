@@ -89,6 +89,12 @@ app.post('/classChooser', function(req, res){
 		CLASS = "soldier";
 	}else if(req.body['medic'] == "Medic"){
 		CLASS = "medic";
+	}else if(req.body['sniper'] == "Sniper"){
+		CLASS = "sniper";
+	}else if(req.body['engineer'] == "Engineer"){
+		CLASS = "engineer";
+	}else if(req.body['pyro'] == "Pyro"){
+		CLASS = "pyro";
 	}else if(req.body['ach'] == "Achievments" ){
 		console.log("IT WOKRED!");
 		return res.redirect('/ach');
@@ -125,7 +131,6 @@ app.get('/fetchStats', function(req, res){
 });
 
 app.get('/ach', function(req, res){
-	//parse achievements and render every eachivements and if it was completed or not
 	var fetchId = steam.resolve(url+USERNAME).then(function(id) {
 		console.log(id);
 		let names = [];

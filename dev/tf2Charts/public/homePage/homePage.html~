@@ -47,7 +47,7 @@
 				<br>
 				<br>
 				<div class="caption">
-                <h1 class="masthead-heading text-uppercase mb-0">Tf2 Charts</h1>
+	                <h1 class="masthead-heading text-uppercase mb-0">Tf2 Charts</h1>
 				</div> 
 		<br>
 		<form method="post" action="/">
@@ -78,9 +78,9 @@
                 </div>
 				<div class="text-black">
 					<ol>
-						<li> <h5> Set Custom Steam URL as shown here: <a href="https://www.google.com/search?q=set+custom+steam+url+steam&rlz=1C1ONGR_enUS1007US1007&oq=set+custom+steam+url+steam&aqs=chrome..69i57.2985j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_WHhpY4-BB7_QkPIP14SI2Ao_43"> Set Custom Steam Url</a></h5> </li>
+						<li> <h5> Set Custom Steam URL and Username as shown here: <a href="https://www.google.com/search?q=set+custom+steam+url+steam&rlz=1C1ONGR_enUS1007US1007&oq=set+custom+steam+url+steam&aqs=chrome..69i57.2985j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_WHhpY4-BB7_QkPIP14SI2Ao_43"> Set Custom Steam Url</a></h5> </li>
 						<li> <h5> Set Achievements To Public </h5> </li>
-						<li> <h5> Enter Your Custom Steam URL and Enjoy! </h5> </li>
+						<li> <h5> Enter Your Custom Steam Username and Enjoy! </h5> </li>
 					</ol>
 				</div>
             </div>

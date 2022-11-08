@@ -54,6 +54,7 @@
             </div>
         </header>
         <!-- Section-->
+		<form method="post" action="/classChooser">
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -102,8 +103,9 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="soldier" class="btn btn-warning" value="Soldier"/>
+
                             </div>
                         </div>
                     </div>
@@ -124,8 +126,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="pyro" class="btn btn-warning" value="Pyro"/>
                             </div>
                         </div>
                     </div>
@@ -151,8 +153,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="demoman" class="btn btn-warning" value="Demoman"/>
                             </div>
                         </div>
                     </div>
@@ -173,8 +175,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="heavy" class="btn btn-warning" value="Heavy"/>
                             </div>
                         </div>
                     </div>
@@ -192,8 +194,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="engineer" class="btn btn-warning" value="Engineer"/>
                             </div>
                         </div>
                     </div>
@@ -222,8 +224,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="medic" class="btn btn-warning" value="Medic"/>
                             </div>
                         </div>
                     </div>
@@ -249,8 +251,8 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+								<input type="submit" name="sniper" class="btn btn-warning" value="Sniper"/>
                             </div>
                         </div>
                     </div>
