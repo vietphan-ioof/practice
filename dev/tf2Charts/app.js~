@@ -95,7 +95,7 @@ app.post('/classChooser', function(req, res){
 		CLASS = "engineer";
 	}else if(req.body['pyro'] == "Pyro"){
 		CLASS = "pyro";
-	}else if(req.body['ach'] == "Find Your General Achievments" ){
+	}else if(req.body['ach'] == "Find Your General Achievements" ){
 		console.log("IT WOKRED!");
 		return res.redirect('/ach');
 	}
