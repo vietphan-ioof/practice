@@ -68,7 +68,12 @@ app.post('/', function(req, res){
 });
 
 app.get('/classChooser', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: url+USERNAME});
+
+	var classSelectCSS = {
+		style : fs.readFileSync('./public/classSelect/css/classSelectStyles.css', 'utf8'),
+	};
+
+	res.render(path.join(__dirname, './public/classSelect/classSelect.html'), {myCSS: classSelectCSS});
 });
 
 app.post('/classChooser', function(req, res){

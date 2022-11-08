@@ -58,7 +58,7 @@ app.get('/', function(req, res){
 		style : fs.readFileSync('./public/homePage/css/homePageStyles.css', 'utf8'),
 	};
 
-	res.render(path.join(__dirname, './public/homePage/homePage.html'), {RESULT: url+USERNAME, title: 'homePage', myCSS: homePageCSS});
+	res.render(path.join(__dirname, './public/homePage/homePage.html'), {RESULT: "                                    ", title: 'homePage', myCSS: homePageCSS});
 });
 
 app.post('/', function(req, res){
@@ -68,7 +68,12 @@ app.post('/', function(req, res){
 });
 
 app.get('/classChooser', function(req, res){
-	res.render(path.join(__dirname, './public/classSelect.html'), {RESULT: url+USERNAME});
+
+	var classSelectCSS = {
+		style : fs.readFileSync('./public/classSelect/css/classSelectStyles.css', 'utf8'),
+	};
+
+	res.render(path.join(__dirname, './public/classSelect/classSelect.html'), {myCSS: classSelectCSS});
 });
 
 app.post('/classChooser', function(req, res){
