@@ -11425,7 +11425,6 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  background-image: url(/css/tfbg.jpg);
   background-color: #red;
 }
 
@@ -11502,5 +11501,15 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.caption{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+}
+
+
+
 
 </style>
