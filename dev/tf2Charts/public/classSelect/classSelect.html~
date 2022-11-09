@@ -20,12 +20,6 @@
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#!">Find your statistics</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                    </ul>
-                </div>
             </div>
         </nav>
         <!-- Header-->
@@ -52,14 +46,11 @@
                         <div class="card h-100">
                             <!-- Product image-->
 								<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/5/56/Baseball_Bill%27s_Sports_Shine.png/250px-Baseball_Bill%27s_Sports_Shine.png"/>
-
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Scout</h5>
-                                    <!-- Product price-->
-                                    $40.00 - $80.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -88,15 +79,11 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
 								<input type="submit" name="soldier" class="btn btn-warning" value="Soldier"/>
-
                             </div>
                         </div>
                     </div>
@@ -112,8 +99,6 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Pyro</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -139,8 +124,6 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -160,9 +143,6 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Heavy</h5>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -180,8 +160,6 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Engineer</h5>
-                                    <!-- Product price-->
-                                    $120.00 - $280.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -209,9 +187,6 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -237,8 +212,6 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -264,8 +237,6 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <!-- Product price-->
-                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->

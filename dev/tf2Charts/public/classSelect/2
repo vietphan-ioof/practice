@@ -18,7 +18,30 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">Find your statistics</a>
+                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
             </div>
         </nav>
         <!-- Header-->
@@ -26,30 +49,27 @@
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Pick a class</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">See individualized statistics or what general achievements you have or need.</p>
+                    <p class="lead fw-normal text-white-50 mb-0">See individualized statistics</p>
                 </div>
             </div>
         </header>
         <!-- Section-->
 		<form method="post" action="/classChooser">
-		<br>
-		<br>
-		<br>
-		<div class="text-center">
-		<input type="submit" name="ach"class="btn btn-warning btn-lg active" value="Find Your General Achievements"/>
-		</div>
+		<input type="submit" name="ach"class="btn btn-warning text-center" value="Find General Achievements"/>
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-								<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/5/56/Baseball_Bill%27s_Sports_Shine.png/250px-Baseball_Bill%27s_Sports_Shine.png"/>
+                            <img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/5/56/InfoShow_TF2_Tournament_Participant_Scout.png/120px-InfoShow_TF2_Tournament_Participant_Scout.png" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Scout</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -78,11 +98,15 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
 								<input type="submit" name="soldier" class="btn btn-warning" value="Soldier"/>
+
                             </div>
                         </div>
                     </div>
@@ -98,6 +122,8 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Pyro</h5>
                                     <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -123,6 +149,8 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
+                                    <!-- Product price-->
+                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -142,6 +170,9 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Heavy</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -159,6 +190,8 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Engineer</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -186,6 +219,9 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -211,6 +247,8 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
+                                    <!-- Product price-->
+                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -236,6 +274,8 @@
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
+                                    <!-- Product price-->
+                                    $40.00
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -250,7 +290,7 @@
 		</form>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; TF2 Charts 2022</p></div>
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
