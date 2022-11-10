@@ -69,13 +69,6 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Soldier</h5>
                                     <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -112,13 +105,6 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Demoman</h5>
                                     <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -170,14 +156,6 @@
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Medic</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -196,13 +174,6 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Sniper</h5>
                                     <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -214,21 +185,12 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/3/36/Spy.png/250px-Spy.png"/>
 							<img class="card-img-top" src="https://wiki.teamfortress.com/w/images/thumb/d/df/Spytaunt3.PNG/350px-Spytaunt3.PNG"/>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Spy</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
                                 </div>
                             </div>
                             <!-- Product actions-->

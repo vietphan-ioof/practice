@@ -62,6 +62,7 @@ app.get('/', function(req, res){
 });
 
 app.post('/', function(req, res){
+	//impliment error handler
 	console.log(req.body['guess']);
 	USERNAME = req.body['guess'];
 	res.redirect('/classChooser');
