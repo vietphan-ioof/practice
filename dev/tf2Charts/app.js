@@ -129,8 +129,13 @@ app.get('/fetchStats', function(req, res){
 			console.log("+++++++++++++++++++++++++++++++++++++");
 			for(let x in stats.stats){
 				if(x.toLowerCase().includes(CLASS)){
+					if(x.toLowerCase().includes(".")){
+					   statNames.push(x.replaceAll(".", " "));									
+					}else if(x.toLowerCase().includes("_")){
+						statNames.push(x.replaceAll("_" , " "));
+					}
 					classStats.push(stats.stats[x]);
-					statNames.push(x);
+//					statNames.push(x);
 				}
 			}
 			console.log(classStats);
