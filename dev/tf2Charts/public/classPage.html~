@@ -1,0 +1,52 @@
+<!-- class page to display class stats -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http_equiv="X-UA-Compatible" content="ie=edge">
+		<title> </title>
+		<link rel="stylesheet" href="./style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1> Class Stats</h1> 
+		<form method="post" action="/">
+			<div class="results">
+				<ul>
+				<% for (var i = 0; i<names.length ; i++) { %>
+						<li> <%= names[i] %> : <%= stats[i] %>  </li>
+					<% } %>
+				</ul>
+			</div>
+		</form>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,6 +12,7 @@
 */
 
 const http = require('http');
+const https = require('https');
 const express = require('express');
 const steamAPI = require('steamapi');
 const path = require('path');
@@ -65,7 +66,13 @@ app.post('/', function(req, res){
 	//impliment error handler.
 	console.log(req.body['guess']);
 	USERNAME = req.body['guess'];
-	res.redirect('/classChooser');
+
+	steam.resolve(url+USERNAME).then(id => {
+		res.redirect('/classChooser');
+	}).catch(function(e){
+		console.log("WRONG USERNAME");
+		res.redirect('/');
+	});
 });
 
 app.get('/classChooser', function(req, res){
