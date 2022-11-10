@@ -47,6 +47,7 @@ const port = 8080;
 let USERNAME ='';
 let url = 'https://steamcommunity.com/id/';
 let CLASS = "";
+invalid = "    ";
 
 app.get('/', function(req, res){
 	USERNAME = "dragonsofdra";
@@ -59,7 +60,7 @@ app.get('/', function(req, res){
 		style : fs.readFileSync('./public/homePage/css/homePageStyles.css', 'utf8'),
 	};
 
-	res.render(path.join(__dirname, './public/homePage/homePage.html'), {RESULT: "                                    ", title: 'homePage', myCSS: homePageCSS});
+	res.render(path.join(__dirname, './public/homePage/homePage.html'), {RESULT: invalid});
 });
 
 app.post('/', function(req, res){
@@ -71,8 +72,9 @@ app.post('/', function(req, res){
 		res.redirect('/classChooser');
 	}).catch(function(e){
 		console.log("WRONG USERNAME");
+		invalid = "INVALID USERNAME. PLEASE ENTER VALID STEAM ID. FOLLOW INSTRUCTIONS BELOW IF YOU NEED HELP";
 		res.redirect('/');
-	}
+	});
 });
 
 app.get('/classChooser', function(req, res){
