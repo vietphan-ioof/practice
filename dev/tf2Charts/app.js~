@@ -60,7 +60,7 @@ app.get('/', function(req, res){
 		style : fs.readFileSync('./public/homePage/css/homePageStyles.css', 'utf8'),
 	};
 
-	res.render(path.join(__dirname, './public/homePage/homePage.html'), {RESULT: invalid});
+	res.render(path.join(__dirname, './public/homePage/homePage.html'), {RESULT: invalid, myCSS : homePageCSS});
 });
 
 app.post('/', function(req, res){
