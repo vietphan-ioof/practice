@@ -134,8 +134,8 @@ app.get('/fetchStats', function(req, res){
 					}else if(x.toLowerCase().includes("_")){
 						statNames.push(x.replaceAll("_" , " "));
 					}
-//					classStats.push(stats.stats[x]);
-					statNames.push(x);
+					classStats.push(stats.stats[x]);
+//					statNames.push(x);
 				}
 			}
 			console.log(classStats);
